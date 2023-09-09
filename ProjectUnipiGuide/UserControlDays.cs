@@ -38,6 +38,17 @@ namespace ProjectUnipiGuide
             //static_day = lbdays.Text;
             //timer1.Start();
             //currentEventPage.ShowDialog();
+            if (lbevent.Text.Trim() == "")
+            {
+                string message = "Δεν υπάρχει διαθέσιμο event.";
+                MessageBox.Show(message, "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                string message = lbevent.Text;
+                MessageBox.Show(message, "Event", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            
         }
 
         private void displayEvent()

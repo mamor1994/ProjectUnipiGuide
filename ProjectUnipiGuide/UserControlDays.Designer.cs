@@ -52,6 +52,7 @@ namespace ProjectUnipiGuide
             this.lbevent.Name = "lbevent";
             this.lbevent.Size = new System.Drawing.Size(150, 62);
             this.lbevent.TabIndex = 1;
+            this.lbevent.Click += new System.EventHandler(this.UserControlDays_Click);
             // 
             // timer1
             // 
