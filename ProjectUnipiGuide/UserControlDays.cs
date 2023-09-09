@@ -15,7 +15,7 @@ namespace ProjectUnipiGuide
     {
         public static string static_day;
         String connectionString = "Data source=calendar.db;Version=3;";
-        private readonly EventPage currentEventPage = new EventPage(); 
+        //private readonly EventPage currentEventPage = new EventPage(); 
 
 
         public UserControlDays()
@@ -60,7 +60,7 @@ namespace ProjectUnipiGuide
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            displayEvent();
+            //displayEvent();
         }
     }
 }
