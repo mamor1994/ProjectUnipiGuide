@@ -14,6 +14,7 @@ namespace ProjectUnipiGuide
     public partial class CalendarPage : Form
     {
         int month, year;
+        public static int static_month, static_year;
         public CalendarPage()
         {
             InitializeComponent();
@@ -31,6 +32,10 @@ namespace ProjectUnipiGuide
             year = now.Year;
             String monthname = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
             LBDATE.Text = monthname + " " + year;
+
+            static_month = month;
+            static_year = year;
+
             DateTime startofthemonth = new DateTime(year, month, 1);
             int days = DateTime.DaysInMonth(year, month);
             int dayoftheweek = Convert.ToInt32(startofthemonth.DayOfWeek.ToString("d")) + 1;
@@ -64,6 +69,9 @@ namespace ProjectUnipiGuide
 
             String monthname = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
             LBDATE.Text = monthname + " " + year;
+
+            static_month = month;
+            static_year = year;
 
             DateTime now = DateTime.Now;
             DateTime startofthemonth = new DateTime(year, month, 1);
@@ -117,6 +125,9 @@ namespace ProjectUnipiGuide
 
             String monthname = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
             LBDATE.Text = monthname + " " + year;
+
+            static_month = month;
+            static_year = year;
 
             DateTime now = DateTime.Now;
             DateTime startofthemonth = new DateTime(year, month, 1);

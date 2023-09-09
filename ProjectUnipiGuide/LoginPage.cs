@@ -26,7 +26,6 @@ namespace ProjectUnipiGuide
         private void LoginPage_Load(object sender, EventArgs e)
         {
             connection = new SQLiteConnection(connectionString);
-
         }
 
         private void LoginBTN_Click(object sender, EventArgs e)
@@ -41,7 +40,6 @@ namespace ProjectUnipiGuide
                     passwordBox.Clear();
                     emailBox.Focus();
                     emailBox.HideSelection = false;
-
                 }
                 else if (emailBox.Text.Length == 0)
                 {
