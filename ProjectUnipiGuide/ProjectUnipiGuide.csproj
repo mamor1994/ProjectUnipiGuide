@@ -78,17 +78,23 @@
     <Compile Include="EventPage.Designer.cs">
       <DependentUpon>EventPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="VideoPlPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoPlPage.Designer.cs">
+      <DependentUpon>VideoPlPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="KathightesSelectOptionPlPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="KathightesSelectOptionPlPage.Designer.cs">
       <DependentUpon>KathightesSelectOptionPlPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="ReviewsPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="ReviewsPage.Designer.cs">
+      <DependentUpon>ReviewsPage.cs</DependentUpon>
     </Compile>
     <Compile Include="PhotosPage.cs">
       <SubType>Form</SubType>
@@ -134,11 +140,14 @@
     <EmbeddedResource Include="EventPage.resx">
       <DependentUpon>EventPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VideoPlPage.resx">
+      <DependentUpon>VideoPlPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KathightesSelectOptionPlPage.resx">
       <DependentUpon>KathightesSelectOptionPlPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="ReviewsPage.resx">
+      <DependentUpon>ReviewsPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KathigitesPlPage.resx">
       <DependentUpon>KathigitesPlPage.cs</DependentUpon>

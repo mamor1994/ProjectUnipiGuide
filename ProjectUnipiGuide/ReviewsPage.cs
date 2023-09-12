@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace ProjectUnipiGuide
 {
-    public partial class Form2 : Form
+    public partial class ReviewsPage : Form
     {
-        public Form2()
+        public ReviewsPage()
         {
             InitializeComponent();
         }
+
+    
     }
 }
