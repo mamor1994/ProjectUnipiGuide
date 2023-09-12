@@ -85,6 +85,12 @@
     <Compile Include="EndPage.Designer.cs">
       <DependentUpon>EndPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="ByeByePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ByeByePage.Designer.cs">
+      <DependentUpon>ByeByePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="WebPlPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EndPage.resx">
       <DependentUpon>EndPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ByeByePage.resx">
+      <DependentUpon>ByeByePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WebPlPage.resx">
       <DependentUpon>WebPlPage.cs</DependentUpon>
