@@ -12,7 +12,6 @@ namespace ProjectUnipiGuide
 {
     public partial class KathightesSelectOptionPlPage : Form
     {
-        private readonly string userSelectedOption;
 
         public KathightesSelectOptionPlPage()
         {

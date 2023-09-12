@@ -55,6 +55,7 @@
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.118.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Messaging" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -77,6 +78,12 @@
     </Compile>
     <Compile Include="EventPage.Designer.cs">
       <DependentUpon>EventPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EndPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EndPage.Designer.cs">
+      <DependentUpon>EndPage.cs</DependentUpon>
     </Compile>
     <Compile Include="WebPlPage.cs">
       <SubType>Form</SubType>
@@ -145,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EventPage.resx">
       <DependentUpon>EventPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EndPage.resx">
+      <DependentUpon>EndPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WebPlPage.resx">
       <DependentUpon>WebPlPage.cs</DependentUpon>
