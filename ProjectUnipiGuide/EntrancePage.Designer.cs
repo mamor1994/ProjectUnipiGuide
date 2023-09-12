@@ -85,14 +85,14 @@ namespace ProjectUnipiGuide
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(774, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(774, 28);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(14, 26);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(14, 24);
             // 
             // exitToolStripMenuItem
             // 
@@ -100,7 +100,7 @@ namespace ProjectUnipiGuide
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(67, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -108,7 +108,7 @@ namespace ProjectUnipiGuide
             // 
             this.aboutToolStripMenuItem.BackColor = System.Drawing.SystemColors.MenuBar;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -144,6 +144,7 @@ namespace ProjectUnipiGuide
             this.Name = "EntrancePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EntrancePage";
+            this.Load += new System.EventHandler(this.EntrancePage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
