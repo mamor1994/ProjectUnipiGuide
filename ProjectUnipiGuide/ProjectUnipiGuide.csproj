@@ -42,7 +42,16 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Data.Sqlite, Version=7.0.11.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.Sqlite.Core.7.0.11\lib\netstandard2.0\Microsoft.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.core, Version=2.1.4.1835, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
+      <HintPath>..\packages\SQLitePCLRaw.core.2.1.4\lib\netstandard2.0\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.SQLite, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
@@ -54,7 +63,17 @@
     <Reference Include="System.Data.SQLite.Linq, Version=1.0.118.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.118.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
     <Reference Include="System.Messaging" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="System.Speech" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -67,6 +86,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\ClassBLL.cs" />
+    <Compile Include="DAL\Connection.cs" />
+    <Compile Include="DAL\ClassDAL.cs" />
+    <Compile Include="AddReviewPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddReviewPage.Designer.cs">
+      <DependentUpon>AddReviewPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserReviewPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserReviewPage.Designer.cs">
+      <DependentUpon>UserReviewPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
     <Compile Include="EntrancePage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,12 +149,6 @@
     <Compile Include="KathightesSelectOptionPlPage.Designer.cs">
       <DependentUpon>KathightesSelectOptionPlPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReviewsPage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ReviewsPage.Designer.cs">
-      <DependentUpon>ReviewsPage.cs</DependentUpon>
-    </Compile>
     <Compile Include="PhotosPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +187,12 @@
     <Compile Include="UserControlDays.Designer.cs">
       <DependentUpon>UserControlDays.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddReviewPage.resx">
+      <DependentUpon>AddReviewPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserReviewPage.resx">
+      <DependentUpon>UserReviewPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EntrancePage.resx">
       <DependentUpon>EntrancePage.cs</DependentUpon>
     </EmbeddedResource>
@@ -165,6 +205,9 @@
     <EmbeddedResource Include="ByeByePage.resx">
       <DependentUpon>ByeByePage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WebPlPage.resx">
       <DependentUpon>WebPlPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,9 +216,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KathightesSelectOptionPlPage.resx">
       <DependentUpon>KathightesSelectOptionPlPage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ReviewsPage.resx">
-      <DependentUpon>ReviewsPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KathigitesPlPage.resx">
       <DependentUpon>KathigitesPlPage.cs</DependentUpon>

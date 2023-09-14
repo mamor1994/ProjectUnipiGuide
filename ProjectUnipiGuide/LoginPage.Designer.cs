@@ -177,7 +177,7 @@ namespace ProjectUnipiGuide
             this.label2.Font = new System.Drawing.Font("Segoe Script", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label2.Location = new System.Drawing.Point(100, 166);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 31);
+            this.label2.Size = new System.Drawing.Size(91, 30);
             this.label2.TabIndex = 13;
             this.label2.Text = "Κωδικός";
             // 
@@ -187,7 +187,7 @@ namespace ProjectUnipiGuide
             this.Email.Font = new System.Drawing.Font("Segoe Script", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Email.Location = new System.Drawing.Point(100, 62);
             this.Email.Name = "Email";
-            this.Email.Size = new System.Drawing.Size(76, 31);
+            this.Email.Size = new System.Drawing.Size(71, 30);
             this.Email.TabIndex = 12;
             this.Email.Text = "Email";
             // 
@@ -231,11 +231,11 @@ namespace ProjectUnipiGuide
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(806, 607);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.menuStrip1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "LoginPage";

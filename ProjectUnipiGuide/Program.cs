@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectUnipiGuide.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace ProjectUnipiGuide
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ByeByePage());
+            Application.Run(new UserReviewPage());
         }
     }
 }
