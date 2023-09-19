@@ -50,27 +50,7 @@ namespace ProjectUnipiGuide.DAL
                 }
             }
         }
-            //UserControl1[] listItems = new UserControl1[5];
-
-            //string[] title = new string[5] { "French Fries", "Hamburger", "Hot Dog", "Pizza", "Popcorn" };
-
-            //string[] subtitle = new string[5] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
-
-            ////Image[] icons = new Image[5]; { Properties.Resources.frenchfries, Properties.Resources.hamburger, Propertied.Resources.hotdog }
-
-            //for (int i = 0; i < listItems.Length; i++)
-            //{
-            //    listItems[i] = new UserControl1();
-            //    listItems[i].Title = title[i];
-            //    listItems[i].SubTitle = subtitle[i];
-            //    //listItems[i].Icon = icon[i];
-
-            //    flowLayoutPanel1.Controls.Add(listItems[i]);
-
-            //    listItems[i].Click += new System.EventHandler(this.UserControl_Click);
-            //}
-        //}
-
+           
         void UserControl_Click(object sender, EventArgs e)
         {
             UserControl1 obj = (UserControl1)sender;
