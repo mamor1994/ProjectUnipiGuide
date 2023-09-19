@@ -23,7 +23,7 @@ namespace ProjectUnipiGuide
             Path.Combine(Directory.GetCurrentDirectory(), @"images\image8.jfif"),
             Path.Combine(Directory.GetCurrentDirectory(), @"images\image9.jfif")
         };
-
+        //test comment
         public PhotosPage()
         {
             InitializeComponent();
