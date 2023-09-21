@@ -40,9 +40,9 @@
             // pb_icon
             // 
             this.pb_icon.BackColor = System.Drawing.Color.Orange;
-            this.pb_icon.Location = new System.Drawing.Point(20, 34);
+            this.pb_icon.Location = new System.Drawing.Point(19, 24);
             this.pb_icon.Name = "pb_icon";
-            this.pb_icon.Size = new System.Drawing.Size(84, 81);
+            this.pb_icon.Size = new System.Drawing.Size(84, 66);
             this.pb_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_icon.TabIndex = 0;
             this.pb_icon.TabStop = false;
@@ -68,18 +68,20 @@
             // lbl_title
             // 
             this.lbl_title.AutoSize = true;
-            this.lbl_title.Location = new System.Drawing.Point(200, 34);
+            this.lbl_title.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_title.Location = new System.Drawing.Point(180, 15);
             this.lbl_title.Name = "lbl_title";
-            this.lbl_title.Size = new System.Drawing.Size(33, 16);
+            this.lbl_title.Size = new System.Drawing.Size(44, 31);
             this.lbl_title.TabIndex = 2;
             this.lbl_title.Text = "Title";
             // 
             // lbl_subtitle
             // 
             this.lbl_subtitle.AutoSize = true;
-            this.lbl_subtitle.Location = new System.Drawing.Point(200, 99);
+            this.lbl_subtitle.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_subtitle.Location = new System.Drawing.Point(180, 79);
             this.lbl_subtitle.Name = "lbl_subtitle";
-            this.lbl_subtitle.Size = new System.Drawing.Size(51, 16);
+            this.lbl_subtitle.Size = new System.Drawing.Size(63, 31);
             this.lbl_subtitle.TabIndex = 3;
             this.lbl_subtitle.Text = "Subtitle";
             // 
@@ -91,7 +93,7 @@
             this.Controls.Add(this.lbl_title);
             this.Controls.Add(this.panel1);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(459, 150);
+            this.Size = new System.Drawing.Size(463, 118);
             ((System.ComponentModel.ISupportInitialize)(this.pb_icon)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

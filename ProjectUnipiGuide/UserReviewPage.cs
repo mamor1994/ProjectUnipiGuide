@@ -70,25 +70,45 @@ namespace ProjectUnipiGuide.DAL
             panel1.Visible = false;
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void UserReviewPage_Load(object sender, EventArgs e)
         {
             GenerateDynamicUserControl();
+            hidepanel();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
             hidepanel();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnAdd_Click(object sender, EventArgs e)
         {
             AddReviewPage frm = new AddReviewPage();
             frm.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnRefresh_Click(object sender, EventArgs e)
         {
             GenerateDynamicUserControl();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς η οποία δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";
+
+            MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EntrancePage form = new EntrancePage();
+            form.Show();
+            this.Hide();
         }
     }
 }

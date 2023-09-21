@@ -17,7 +17,7 @@ namespace ProjectUnipiGuide
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EntrancePage()); //Lampionia
+            Application.Run(new UserReviewPage());
         }
     }
 }
