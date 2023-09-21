@@ -82,9 +82,9 @@
             this.lb_subtitle.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_subtitle.Location = new System.Drawing.Point(28, 369);
             this.lb_subtitle.Name = "lb_subtitle";
-            this.lb_subtitle.Size = new System.Drawing.Size(88, 34);
+            this.lb_subtitle.Size = new System.Drawing.Size(77, 34);
             this.lb_subtitle.TabIndex = 4;
-            this.lb_subtitle.Text = "SubTitle";
+            this.lb_subtitle.Text = "Review";
             // 
             // txt_title
             // 
