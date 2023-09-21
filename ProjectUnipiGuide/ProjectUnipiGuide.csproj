@@ -95,6 +95,36 @@
     <Compile Include="AddReviewPage.Designer.cs">
       <DependentUpon>AddReviewPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="GenInfoPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenInfoPage.Designer.cs">
+      <DependentUpon>GenInfoPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Schools.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schools.Designer.cs">
+      <DependentUpon>Schools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServicesPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServicesPage.Designer.cs">
+      <DependentUpon>ServicesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UniHistoryPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UniHistoryPage.Designer.cs">
+      <DependentUpon>UniHistoryPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserReviewPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -189,6 +219,21 @@
     </Compile>
     <EmbeddedResource Include="AddReviewPage.resx">
       <DependentUpon>AddReviewPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenInfoPage.resx">
+      <DependentUpon>GenInfoPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schools.resx">
+      <DependentUpon>Schools.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServicesPage.resx">
+      <DependentUpon>ServicesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UniHistoryPage.resx">
+      <DependentUpon>UniHistoryPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserReviewPage.resx">
       <DependentUpon>UserReviewPage.cs</DependentUpon>
