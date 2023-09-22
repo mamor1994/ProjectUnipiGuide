@@ -20,25 +20,29 @@ namespace ProjectUnipiGuide
         private void btnPlOverviewPage_Click(object sender, EventArgs e)
         {
             PlOverviewPage newForm = new PlOverviewPage();
-            newForm.ShowDialog();
+            newForm.Show();
+            this.Hide();
         }
 
         private void btnPlProfessorsPage_Click(object sender, EventArgs e)
         {
             KathightesSelectOptionPlPage newForm = new KathightesSelectOptionPlPage();
-            newForm.ShowDialog();
+            newForm.Show();
+            this.Hide();
         }
 
         private void btnPlPage_Click(object sender, EventArgs e)
         {
             WebPlPage newForm = new WebPlPage();
-            newForm.ShowDialog();
+            newForm.Show();
+            this.Hide();
         }
 
         private void btnPlVideoPage_Click(object sender, EventArgs e)
         {
             VideoPlPage newForm = new VideoPlPage();
-            newForm.ShowDialog();
+            newForm.Show();
+            this.Hide();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)

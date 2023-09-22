@@ -43,6 +43,8 @@
             // 
             // btnPlOverviewPage
             // 
+            this.btnPlOverviewPage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlOverviewPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPlOverviewPage.Location = new System.Drawing.Point(345, 76);
             this.btnPlOverviewPage.Name = "btnPlOverviewPage";
             this.btnPlOverviewPage.Size = new System.Drawing.Size(225, 58);
@@ -53,6 +55,8 @@
             // 
             // btnPlProfessorsPage
             // 
+            this.btnPlProfessorsPage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlProfessorsPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPlProfessorsPage.Location = new System.Drawing.Point(345, 157);
             this.btnPlProfessorsPage.Name = "btnPlProfessorsPage";
             this.btnPlProfessorsPage.Size = new System.Drawing.Size(225, 64);
@@ -63,6 +67,8 @@
             // 
             // btnPlPage
             // 
+            this.btnPlPage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPlPage.Location = new System.Drawing.Point(345, 250);
             this.btnPlPage.Name = "btnPlPage";
             this.btnPlPage.Size = new System.Drawing.Size(225, 69);
@@ -73,6 +79,8 @@
             // 
             // btnPlVideoPage
             // 
+            this.btnPlVideoPage.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlVideoPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnPlVideoPage.Location = new System.Drawing.Point(345, 352);
             this.btnPlVideoPage.Name = "btnPlVideoPage";
             this.btnPlVideoPage.Size = new System.Drawing.Size(225, 77);
@@ -106,7 +114,7 @@
             // 
             this.goBackToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("goBackToolStripMenuItem.Image")));
             this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
-            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.goBackToolStripMenuItem.Text = "&Go Back";
             this.goBackToolStripMenuItem.Click += new System.EventHandler(this.goBackToolStripMenuItem_Click);
             // 
@@ -114,7 +122,7 @@
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -137,6 +145,7 @@
             this.Controls.Add(this.btnPlOverviewPage);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PlMenuPage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PlMenuPage";
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
