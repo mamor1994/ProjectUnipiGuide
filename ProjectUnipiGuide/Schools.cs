@@ -49,5 +49,10 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
         }
+
+        private void Schools_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
