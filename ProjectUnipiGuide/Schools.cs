@@ -30,5 +30,17 @@ namespace ProjectUnipiGuide
             newform.Show();
             this.Hide();
         }
+
+        private void Banking_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FinanceStudies_Click(object sender, EventArgs e)
+        {
+            FinanceStudies.Visible = false;
+            Banking.Visible = true;
+            Statistics.Visible = true;
+        }
     }
 }
