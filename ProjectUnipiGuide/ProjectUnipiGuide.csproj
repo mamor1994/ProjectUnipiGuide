@@ -95,6 +95,12 @@
     <Compile Include="AddReviewPage.Designer.cs">
       <DependentUpon>AddReviewPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="PsSOverviewPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PsSOverviewPage.Designer.cs">
+      <DependentUpon>PsSOverviewPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="PlMenuPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -231,6 +237,9 @@
     </Compile>
     <EmbeddedResource Include="AddReviewPage.resx">
       <DependentUpon>AddReviewPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PsSOverviewPage.resx">
+      <DependentUpon>PsSOverviewPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlMenuPage.resx">
       <DependentUpon>PlMenuPage.cs</DependentUpon>
