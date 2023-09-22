@@ -32,6 +32,8 @@
             this.MaritimeStudies = new System.Windows.Forms.Button();
             this.FinanceStudies = new System.Windows.Forms.Button();
             this.ComputerScience = new System.Windows.Forms.Button();
+            this.Informatics = new System.Windows.Forms.RadioButton();
+            this.DigitalSystems = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // ManagementStudies
@@ -73,12 +75,40 @@
             this.ComputerScience.TabIndex = 3;
             this.ComputerScience.Text = "ΤΕΧΝΟΛΟΓΙΩΝ ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΕΠΙΚΟΙΝΩΝΙΩΝ";
             this.ComputerScience.UseVisualStyleBackColor = true;
+            this.ComputerScience.Click += new System.EventHandler(this.ComputerScience_Click);
+            // 
+            // Informatics
+            // 
+            this.Informatics.AutoSize = true;
+            this.Informatics.Location = new System.Drawing.Point(559, 67);
+            this.Informatics.Name = "Informatics";
+            this.Informatics.Size = new System.Drawing.Size(158, 20);
+            this.Informatics.TabIndex = 4;
+            this.Informatics.TabStop = true;
+            this.Informatics.Text = "Τμήμα Πληροφορικής";
+            this.Informatics.UseVisualStyleBackColor = true;
+            this.Informatics.Visible = false;
+            this.Informatics.CheckedChanged += new System.EventHandler(this.Informatics_CheckedChanged);
+            // 
+            // DigitalSystems
+            // 
+            this.DigitalSystems.AutoSize = true;
+            this.DigitalSystems.Location = new System.Drawing.Point(559, 93);
+            this.DigitalSystems.Name = "DigitalSystems";
+            this.DigitalSystems.Size = new System.Drawing.Size(204, 20);
+            this.DigitalSystems.TabIndex = 5;
+            this.DigitalSystems.TabStop = true;
+            this.DigitalSystems.Text = "Τμήμα Ψηφιακών Συστημάτων";
+            this.DigitalSystems.UseVisualStyleBackColor = true;
+            this.DigitalSystems.Visible = false;
             // 
             // Schools
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.DigitalSystems);
+            this.Controls.Add(this.Informatics);
             this.Controls.Add(this.ComputerScience);
             this.Controls.Add(this.FinanceStudies);
             this.Controls.Add(this.MaritimeStudies);
@@ -87,6 +117,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SchoolsPage";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -96,5 +127,7 @@
         private System.Windows.Forms.Button MaritimeStudies;
         private System.Windows.Forms.Button FinanceStudies;
         private System.Windows.Forms.Button ComputerScience;
+        private System.Windows.Forms.RadioButton Informatics;
+        private System.Windows.Forms.RadioButton DigitalSystems;
     }
 }

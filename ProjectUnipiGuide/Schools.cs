@@ -16,5 +16,19 @@ namespace ProjectUnipiGuide
         {
             InitializeComponent();
         }
+
+        private void ComputerScience_Click(object sender, EventArgs e)
+        {
+            ComputerScience.Visible = false;
+            Informatics.Visible = true;
+            DigitalSystems.Visible = true;
+        }
+
+        private void Informatics_CheckedChanged(object sender, EventArgs e)
+        {
+            PlMenuPage newform = new PlMenuPage();
+            newform.Show();
+            this.Hide();
+        }
     }
 }

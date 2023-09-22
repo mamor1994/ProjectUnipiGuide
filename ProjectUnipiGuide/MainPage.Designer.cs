@@ -42,6 +42,7 @@
             this.GenInfo.TabIndex = 0;
             this.GenInfo.Text = "Γενικές Πληροφορίες";
             this.GenInfo.UseVisualStyleBackColor = true;
+            this.GenInfo.Click += new System.EventHandler(this.GenInfo_Click);
             // 
             // Schools
             // 
@@ -52,6 +53,7 @@
             this.Schools.TabIndex = 1;
             this.Schools.Text = "Σχολές";
             this.Schools.UseVisualStyleBackColor = true;
+            this.Schools.Click += new System.EventHandler(this.Schools_Click);
             // 
             // Services
             // 
@@ -62,6 +64,7 @@
             this.Services.TabIndex = 2;
             this.Services.Text = "Υπηρεσίες";
             this.Services.UseVisualStyleBackColor = true;
+            this.Services.Click += new System.EventHandler(this.Services_Click);
             // 
             // MainPage
             // 
