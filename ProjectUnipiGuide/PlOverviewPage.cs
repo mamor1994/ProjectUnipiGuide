@@ -76,7 +76,7 @@ namespace ProjectUnipiGuide
 
         private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            EntrancePage form = new EntrancePage();
+            PlMenuPage form = new PlMenuPage();
             form.Show();
             this.Hide();
         }
