@@ -35,7 +35,7 @@ namespace ProjectUnipiGuide
         private void Episkepths_Click(object sender, EventArgs e)
         {
             player.Stop();
-            PhotosPage newForm = new PhotosPage();
+            MainPage newForm = new MainPage();
             newForm.Show();
             this.Hide();
         }

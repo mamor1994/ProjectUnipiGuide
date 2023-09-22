@@ -40,6 +40,7 @@
             this.History.TabIndex = 0;
             this.History.Text = "Ιστορία";
             this.History.UseVisualStyleBackColor = true;
+            this.History.Click += new System.EventHandler(this.History_Click);
             // 
             // GenInfoPage
             // 

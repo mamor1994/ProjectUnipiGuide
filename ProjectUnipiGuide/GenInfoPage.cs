@@ -16,5 +16,12 @@ namespace ProjectUnipiGuide
         {
             InitializeComponent();
         }
+
+        private void History_Click(object sender, EventArgs e)
+        {
+            UniHistoryPage newform = new UniHistoryPage();
+            newform.Show();
+            this.Hide();
+        }
     }
 }

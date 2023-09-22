@@ -16,5 +16,26 @@ namespace ProjectUnipiGuide
         {
             InitializeComponent();
         }
+
+        private void GenInfo_Click(object sender, EventArgs e)
+        {
+            GenInfoPage newform = new GenInfoPage();
+            newform.Show();
+            this.Hide();
+        }
+
+        private void Schools_Click(object sender, EventArgs e)
+        {
+            Schools newform = new Schools();
+            newform.Show();
+            this.Hide();
+        }
+
+        private void Services_Click(object sender, EventArgs e)
+        {
+            ServicesPage newform = new ServicesPage();
+            newform.Show();
+            this.Hide();
+        }
     }
 }
