@@ -95,6 +95,18 @@
     <Compile Include="AddReviewPage.Designer.cs">
       <DependentUpon>AddReviewPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="PlMenuPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlMenuPage.Designer.cs">
+      <DependentUpon>PlMenuPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlOverviewPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlOverviewPage.Designer.cs">
+      <DependentUpon>PlOverviewPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="GenInfoPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -219,6 +231,12 @@
     </Compile>
     <EmbeddedResource Include="AddReviewPage.resx">
       <DependentUpon>AddReviewPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlMenuPage.resx">
+      <DependentUpon>PlMenuPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlOverviewPage.resx">
+      <DependentUpon>PlOverviewPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GenInfoPage.resx">
       <DependentUpon>GenInfoPage.cs</DependentUpon>
