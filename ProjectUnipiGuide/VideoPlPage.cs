@@ -45,6 +45,7 @@ namespace ProjectUnipiGuide
             PlMenuPage form = new PlMenuPage();
             form.Show();
             this.Hide();
+            axWindowsMediaPlayer1.Ctlcontrols.pause();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
