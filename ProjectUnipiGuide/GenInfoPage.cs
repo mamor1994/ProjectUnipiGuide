@@ -42,5 +42,12 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            LocationPage form = new LocationPage();
+            form.Show();
+            this.Hide();
+        }
     }
 }
