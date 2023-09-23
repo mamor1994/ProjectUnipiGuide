@@ -40,5 +40,20 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
         }
+
+        private void UniHistoryPage_Load(object sender, EventArgs e)
+        {
+            textBox1.GotFocus += textBox1_GotFocus;
+        }
+
+        private void textBox1_GotFocus(object sender, EventArgs e)
+        {
+            ((TextBox)sender).Parent.Focus();
+        }
+
+        private void textBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            
+        }
     }
 }
