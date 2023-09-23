@@ -41,6 +41,8 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.textBox1.Location = new System.Drawing.Point(37, 88);
             this.textBox1.Multiline = true;
@@ -51,6 +53,7 @@
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseDown);
             // 
             // label1
             // 
@@ -88,7 +91,7 @@
             // 
             this.goBackToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("goBackToolStripMenuItem.Image")));
             this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
-            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
+            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.goBackToolStripMenuItem.Text = "&Go Back";
             this.goBackToolStripMenuItem.Click += new System.EventHandler(this.goBackToolStripMenuItem_Click);
             // 
@@ -96,7 +99,7 @@
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -120,6 +123,7 @@
             this.Name = "UniHistoryPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UniHistoryPage";
+            this.Load += new System.EventHandler(this.UniHistoryPage_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);

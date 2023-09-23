@@ -95,6 +95,12 @@
     <Compile Include="AddReviewPage.Designer.cs">
       <DependentUpon>AddReviewPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="EconomicsPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EconomicsPage.Designer.cs">
+      <DependentUpon>EconomicsPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="LocationPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +249,9 @@
     </Compile>
     <EmbeddedResource Include="AddReviewPage.resx">
       <DependentUpon>AddReviewPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EconomicsPage.resx">
+      <DependentUpon>EconomicsPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LocationPage.resx">
       <DependentUpon>LocationPage.cs</DependentUpon>

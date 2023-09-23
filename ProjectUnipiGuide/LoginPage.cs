@@ -71,8 +71,9 @@ namespace ProjectUnipiGuide
                     {
                         string message = "Συνδέθηκες επιτυχώς!";
                         MessageBox.Show(message, "Login Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                       // new Form2().Show();
-                       // this.Hide();
+                        MainPage form = new MainPage();
+                        form.Show();
+                        this.Hide();
                     }
                     else
                     {

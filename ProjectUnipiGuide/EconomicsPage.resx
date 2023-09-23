@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="infotext.Text" xml:space="preserve">
+    <value>Το Τμήμα της Οικονομικής Επιστήμης προσφέρει ένα άρτιο, σύγχρονο και ανταγωνιστικό Πρόγραμμα Σπουδών.
+
+Το πρόγραμμα προπτυχιακών σπουδών του Τμήματός μας αποσκοπεί στη μετάδοση γνώσεων, στην καλλιέργεια του επιστημονικού προβληματισμού των φοιτητών και στον προσανατολισμό τους στις επιστημονικές μεθόδους εργασίας και έρευνας. Απαρτίζεται από έναν κορμό βασικών μαθημάτων, όπως για παράδειγμα, Μικροοικονομική Θεωρία, Μακροοικονομική Θεωρία, Μαθηματικά, Στατιστική, Οικονομετρία, Διεθνή Οικονομικά, Βιομηχανική Οργάνωση, που διδάσκονται εμπεριστατωμένα, καθώς και από σύγχρονα μαθήματα επιλογής. Η διδασκαλία συνοδεύεται από φροντιστηριακές ασκήσεις, σεμινάρια, εργασίες των φοιτητών και συζητήσεις μέσα στις αίθουσες διδασκαλίας. Οι εβδομαδιαίες ώρες διδασκαλίας κάθε μαθήματος του Τμήματος Οικονομικής Επιστήμης είναι τέσσερις ώρες. Για τη λήψη πτυχίου, σύμφωνα με το νέο Πρόγραμμα Σπουδων, απαιτείται η επιτυχής εξέταση σε 44 μαθήματα για τη συγκέντρωση 240 συνολικά πιστωτικών μονάδων ΕCTS.
+
+Παράλλημα, το Τμήμα μας προσφέρει Προγράμματα Μεταπτυχιακών Σπουδών (M.Sc.) διεθνούς κύρους στην "Οικονομική και Επιχειρησιακή Στρατηγική", στα "Οικονομικά και Διοίκηση της Υγείας", στην "Οικονομική της Εκπαίδευσης και Διαχείριση Εκπαιδευτικών Μονάδων", στη "Βιοοικονομία, Κυκλική Οικονομία και Βιώσιμη Ανάπτυξη" και στην "Εφαρμοσμένη Δημόσια Οικονομική και Πολιτική". Σκοπός των Προγραμμάτων Μεταπτυχιακών Σπουδών του Τμήματός μας είναι η προετοιμασία εξειδικευμένων και ικανών στελεχών για απασχόληση σε φορείς του δημόσιου και ιδιωτικού τομέα (και στη διοίκηση μονάδων υγείας), ώστε να προωθήσουν την ανάπτυξη των Ελληνικών επιχειρήσεων (και κλάδων υγείας).
+
+Tο Τμήμα μας προφέρει επίσης τη δυνατότητα εκπόνησης Διδακτορικής Διατριβής (Doctor of Philosophy) και Μετα-Διδακτορικής έρευνας (Post-Doctorate).
+
+Τέλος, το Τμήμα μας δίνει τη δυνατότητα επιμόρφωσης των σπουδαστών σε θέματα εφαρμοσμένων οικονομικών με τη χρήση τεχνολογιών εξ’ αποστάσεως εκπαίδευσης και ηλεκτρονικής μάθησης (e-learning). Το πρόγραμμα αυτό απευθύνεται σε όλους όσους επιθυμούν να βελτιώσουν τη θέση τους στην αγορά εργασίας ή να εμπλουτίσουν τις γνώσεις τους στο πλαίσιο του επαγγελματικού τους χώρου.
+
+Επιπλέον, οι απόφοιτοι του Προπτυχιακού Προγράμματος Σπουδών του Τμήματος Οικονομικής Επιστήμης απαλάσσονται από τα μαθήματα Λογιστικής, Διοίκησης Επιχειρήσεων, Χρηματοοικονομικών και Δικαίου του Ινστιτούτου Ορκωτών Λογιστών της Αγγλίας και Ουαλίας (ICAEW).</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
