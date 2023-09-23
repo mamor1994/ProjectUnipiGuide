@@ -42,6 +42,7 @@
             // 
             // GenInfo
             // 
+            this.GenInfo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GenInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.GenInfo.Location = new System.Drawing.Point(37, 62);
             this.GenInfo.Name = "GenInfo";
@@ -53,6 +54,7 @@
             // 
             // Schools
             // 
+            this.Schools.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Schools.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Schools.Location = new System.Drawing.Point(250, 62);
             this.Schools.Name = "Schools";
@@ -64,6 +66,7 @@
             // 
             // Services
             // 
+            this.Services.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Services.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Services.Location = new System.Drawing.Point(461, 62);
             this.Services.Name = "Services";
@@ -98,7 +101,7 @@
             // 
             this.goBackToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("goBackToolStripMenuItem.Image")));
             this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
-            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.goBackToolStripMenuItem.Text = "&Go Back";
             this.goBackToolStripMenuItem.Click += new System.EventHandler(this.goBackToolStripMenuItem_Click);
             // 
@@ -106,7 +109,7 @@
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 

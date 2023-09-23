@@ -53,6 +53,7 @@
             // 
             // ManagementStudies
             // 
+            this.ManagementStudies.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ManagementStudies.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
             this.ManagementStudies.ForeColor = System.Drawing.Color.RoyalBlue;
             this.ManagementStudies.Location = new System.Drawing.Point(12, 57);
@@ -65,6 +66,7 @@
             // 
             // MaritimeStudies
             // 
+            this.MaritimeStudies.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MaritimeStudies.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold);
             this.MaritimeStudies.ForeColor = System.Drawing.Color.RoyalBlue;
             this.MaritimeStudies.Location = new System.Drawing.Point(12, 320);
@@ -77,6 +79,7 @@
             // 
             // FinanceStudies
             // 
+            this.FinanceStudies.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FinanceStudies.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.FinanceStudies.ForeColor = System.Drawing.Color.RoyalBlue;
             this.FinanceStudies.Location = new System.Drawing.Point(515, 57);
@@ -89,6 +92,7 @@
             // 
             // ComputerScience
             // 
+            this.ComputerScience.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ComputerScience.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComputerScience.ForeColor = System.Drawing.Color.RoyalBlue;
             this.ComputerScience.Location = new System.Drawing.Point(515, 320);
@@ -136,7 +140,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip2.Size = new System.Drawing.Size(800, 30);
             this.menuStrip2.TabIndex = 8;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -146,7 +150,7 @@
             this.goBackToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 26);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // goBackToolStripMenuItem
@@ -168,7 +172,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
