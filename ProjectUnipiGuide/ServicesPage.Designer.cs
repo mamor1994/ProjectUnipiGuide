@@ -40,19 +40,15 @@
             this.sitisitoolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ygperithalpsiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.σίτησηToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.eΓραμματείαToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ευρωπαϊκάΠρογράμματαToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.γραφείοΔιασύνδεσηςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.μονάδαΠροσβασιμότηταςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ιατρείοToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.γραφείοΑθλητισμούToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.βραβείαΥποτροφίεςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eΓραμματείαToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.myPasswordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eΓραμματείαToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.ηλToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,13 +56,19 @@
             this.helpDeskToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ηλΤαχυδρομείοToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.τηλεToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.πολιτιστικέςΟμάδεςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.φοιτητικοίΣύλλογοιToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.φοιτητικέςΠαρατάξειςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.άλλεςΔραστηριότητεςToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.επιστημονικήΈνωσηToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -94,7 +96,7 @@
             // 
             this.goBackToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("goBackToolStripMenuItem.Image")));
             this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
-            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.goBackToolStripMenuItem.Text = "&Go Back";
             this.goBackToolStripMenuItem.Click += new System.EventHandler(this.goBackToolStripMenuItem_Click);
             // 
@@ -102,7 +104,7 @@
             // 
             this.exitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitToolStripMenuItem.Image")));
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -157,7 +159,7 @@
             this.ygperithalpsiToolStripMenuItem});
             this.φοιτητικήΜέριμναToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.φοιτητικήΜέριμναToolStripMenuItem.Name = "φοιτητικήΜέριμναToolStripMenuItem";
-            this.φοιτητικήΜέριμναToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.φοιτητικήΜέριμναToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
             this.φοιτητικήΜέριμναToolStripMenuItem.Text = "Φοιτητική Μέριμνα";
             this.φοιτητικήΜέριμναToolStripMenuItem.Click += new System.EventHandler(this.φοιτητικήΜέριμναToolStripMenuItem_Click);
             // 
@@ -184,104 +186,16 @@
             this.σίτησηToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
             this.σίτησηToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.σίτησηToolStripMenuItem.Name = "σίτησηToolStripMenuItem";
-            this.σίτησηToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.σίτησηToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
             this.σίτησηToolStripMenuItem.Text = "Βιβλιοθήκη";
             this.σίτησηToolStripMenuItem.Click += new System.EventHandler(this.σίτησηToolStripMenuItem_Click);
-            // 
-            // ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem
-            // 
-            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.eΓραμματείαToolStripMenuItem,
-            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem,
-            this.myPasswordToolStripMenuItem,
-            this.eΓραμματείαToolStripMenuItem1,
-            this.ηλToolStripMenuItem,
-            this.helpDeskToolStripMenuItem,
-            this.ηλΤαχυδρομείοToolStripMenuItem,
-            this.τηλεToolStripMenuItem});
-            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.Name = "ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem";
-            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.Size = new System.Drawing.Size(242, 20);
-            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.Text = "Ηλεκτρονικές Υπηρεσίες";
-            // 
-            // φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem
-            // 
-            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.πολιτιστικέςΟμάδεςToolStripMenuItem,
-            this.φοιτητικοίΣύλλογοιToolStripMenuItem,
-            this.φοιτητικέςΠαρατάξειςToolStripMenuItem,
-            this.άλλεςΔραστηριότητεςToolStripMenuItem});
-            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.Name = "φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem";
-            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.Size = new System.Drawing.Size(242, 20);
-            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.Text = "Φοιτητική και Κοινωνική Ζωή";
-            // 
-            // απόφοιτοιΠανεπιστημίουToolStripMenuItem
-            // 
-            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.επιστημονικήΈνωσηToolStripMenuItem});
-            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.Name = "απόφοιτοιΠανεπιστημίουToolStripMenuItem";
-            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.Size = new System.Drawing.Size(242, 20);
-            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.Text = "Απόφοιτοι Πανεπιστημίου";
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.Snow;
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(249, 71);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(711, 379);
-            this.textBox1.TabIndex = 12;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.BackColor = System.Drawing.Color.Firebrick;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(249, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(711, 38);
-            this.label1.TabIndex = 13;
-            this.label1.Text = "Υπηρεσίες - Παροχές";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // eΓραμματείαToolStripMenuItem
-            // 
-            this.eΓραμματείαToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
-            this.eΓραμματείαToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.eΓραμματείαToolStripMenuItem.Name = "eΓραμματείαToolStripMenuItem";
-            this.eΓραμματείαToolStripMenuItem.Size = new System.Drawing.Size(308, 26);
-            this.eΓραμματείαToolStripMenuItem.Text = "Γενικές Πληροφορίες";
-            this.eΓραμματείαToolStripMenuItem.Click += new System.EventHandler(this.eΓραμματείαToolStripMenuItem_Click);
-            // 
-            // ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem
-            // 
-            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
-            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.Name = "ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem";
-            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.Size = new System.Drawing.Size(239, 26);
-            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.Text = "URegister";
-            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.Click += new System.EventHandler(this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem_Click);
             // 
             // ευρωπαϊκάΠρογράμματαToolStripMenuItem
             // 
             this.ευρωπαϊκάΠρογράμματαToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
             this.ευρωπαϊκάΠρογράμματαToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ευρωπαϊκάΠρογράμματαToolStripMenuItem.Name = "ευρωπαϊκάΠρογράμματαToolStripMenuItem";
-            this.ευρωπαϊκάΠρογράμματαToolStripMenuItem.Size = new System.Drawing.Size(261, 26);
+            this.ευρωπαϊκάΠρογράμματαToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
             this.ευρωπαϊκάΠρογράμματαToolStripMenuItem.Text = "Ευρωπαϊκά Προγράμματα";
             this.ευρωπαϊκάΠρογράμματαToolStripMenuItem.Click += new System.EventHandler(this.ευρωπαϊκάΠρογράμματαToolStripMenuItem_Click);
             // 
@@ -330,12 +244,47 @@
             this.βραβείαΥποτροφίεςToolStripMenuItem.Text = "Βραβεία - Υποτροφίες";
             this.βραβείαΥποτροφίεςToolStripMenuItem.Click += new System.EventHandler(this.βραβείαΥποτροφίεςToolStripMenuItem_Click);
             // 
+            // ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem
+            // 
+            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.eΓραμματείαToolStripMenuItem,
+            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem,
+            this.myPasswordToolStripMenuItem,
+            this.eΓραμματείαToolStripMenuItem1,
+            this.ηλToolStripMenuItem,
+            this.helpDeskToolStripMenuItem,
+            this.ηλΤαχυδρομείοToolStripMenuItem,
+            this.τηλεToolStripMenuItem});
+            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.Name = "ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem";
+            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.Size = new System.Drawing.Size(242, 20);
+            this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem.Text = "Ηλεκτρονικές Υπηρεσίες";
+            // 
+            // eΓραμματείαToolStripMenuItem
+            // 
+            this.eΓραμματείαToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
+            this.eΓραμματείαToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.eΓραμματείαToolStripMenuItem.Name = "eΓραμματείαToolStripMenuItem";
+            this.eΓραμματείαToolStripMenuItem.Size = new System.Drawing.Size(304, 26);
+            this.eΓραμματείαToolStripMenuItem.Text = "Γενικές Πληροφορίες";
+            this.eΓραμματείαToolStripMenuItem.Click += new System.EventHandler(this.eΓραμματείαToolStripMenuItem_Click);
+            // 
+            // ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem
+            // 
+            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
+            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.Name = "ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem";
+            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.Size = new System.Drawing.Size(304, 26);
+            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.Text = "URegister";
+            this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem.Click += new System.EventHandler(this.ηλΕξΑποστάσεωςΕκπαίδευσηToolStripMenuItem_Click);
+            // 
             // myPasswordToolStripMenuItem
             // 
             this.myPasswordToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
             this.myPasswordToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.myPasswordToolStripMenuItem.Name = "myPasswordToolStripMenuItem";
-            this.myPasswordToolStripMenuItem.Size = new System.Drawing.Size(239, 26);
+            this.myPasswordToolStripMenuItem.Size = new System.Drawing.Size(304, 26);
             this.myPasswordToolStripMenuItem.Text = "MyPassword";
             this.myPasswordToolStripMenuItem.Click += new System.EventHandler(this.myPasswordToolStripMenuItem_Click);
             // 
@@ -344,7 +293,7 @@
             this.eΓραμματείαToolStripMenuItem1.BackColor = System.Drawing.Color.SteelBlue;
             this.eΓραμματείαToolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.eΓραμματείαToolStripMenuItem1.Name = "eΓραμματείαToolStripMenuItem1";
-            this.eΓραμματείαToolStripMenuItem1.Size = new System.Drawing.Size(239, 26);
+            this.eΓραμματείαToolStripMenuItem1.Size = new System.Drawing.Size(304, 26);
             this.eΓραμματείαToolStripMenuItem1.Text = "e-Γραμματεία";
             this.eΓραμματείαToolStripMenuItem1.Click += new System.EventHandler(this.eΓραμματείαToolStripMenuItem1_Click);
             // 
@@ -365,7 +314,7 @@
             this.διδασκαλίαToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
             this.διδασκαλίαToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.διδασκαλίαToolStripMenuItem.Name = "διδασκαλίαToolStripMenuItem";
-            this.διδασκαλίαToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.διδασκαλίαToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
             this.διδασκαλίαToolStripMenuItem.Text = "Διδασκαλία";
             this.διδασκαλίαToolStripMenuItem.Click += new System.EventHandler(this.διδασκαλίαToolStripMenuItem_Click);
             // 
@@ -396,12 +345,25 @@
             this.τηλεToolStripMenuItem.Text = "Τηλεκπαίδευση/Τηλεδιάσκεψη";
             this.τηλεToolStripMenuItem.Click += new System.EventHandler(this.τηλεToolStripMenuItem_Click);
             // 
+            // φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem
+            // 
+            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.πολιτιστικέςΟμάδεςToolStripMenuItem,
+            this.φοιτητικοίΣύλλογοιToolStripMenuItem,
+            this.φοιτητικέςΠαρατάξειςToolStripMenuItem,
+            this.άλλεςΔραστηριότητεςToolStripMenuItem});
+            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.Name = "φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem";
+            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.Size = new System.Drawing.Size(242, 20);
+            this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem.Text = "Φοιτητική και Κοινωνική Ζωή";
+            // 
             // πολιτιστικέςΟμάδεςToolStripMenuItem
             // 
             this.πολιτιστικέςΟμάδεςToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
             this.πολιτιστικέςΟμάδεςToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.πολιτιστικέςΟμάδεςToolStripMenuItem.Name = "πολιτιστικέςΟμάδεςToolStripMenuItem";
-            this.πολιτιστικέςΟμάδεςToolStripMenuItem.Size = new System.Drawing.Size(233, 26);
+            this.πολιτιστικέςΟμάδεςToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
             this.πολιτιστικέςΟμάδεςToolStripMenuItem.Text = "Πολιτιστικές Ομάδες";
             this.πολιτιστικέςΟμάδεςToolStripMenuItem.Click += new System.EventHandler(this.πολιτιστικέςΟμάδεςToolStripMenuItem_Click);
             // 
@@ -432,6 +394,16 @@
             this.άλλεςΔραστηριότητεςToolStripMenuItem.Text = "Άλλες Δραστηριότητες";
             this.άλλεςΔραστηριότητεςToolStripMenuItem.Click += new System.EventHandler(this.άλλεςΔραστηριότητεςToolStripMenuItem_Click);
             // 
+            // απόφοιτοιΠανεπιστημίουToolStripMenuItem
+            // 
+            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.επιστημονικήΈνωσηToolStripMenuItem});
+            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.Name = "απόφοιτοιΠανεπιστημίουToolStripMenuItem";
+            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.Size = new System.Drawing.Size(242, 20);
+            this.απόφοιτοιΠανεπιστημίουToolStripMenuItem.Text = "Απόφοιτοι Πανεπιστημίου";
+            // 
             // επιστημονικήΈνωσηToolStripMenuItem
             // 
             this.επιστημονικήΈνωσηToolStripMenuItem.BackColor = System.Drawing.Color.SteelBlue;
@@ -441,11 +413,58 @@
             this.επιστημονικήΈνωσηToolStripMenuItem.Text = "Επιστημονική Ένωση Αποφοίτων Παν. Πειραιώς";
             this.επιστημονικήΈνωσηToolStripMenuItem.Click += new System.EventHandler(this.επιστημονικήΈνωσηToolStripMenuItem_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.BackColor = System.Drawing.Color.Snow;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
+            this.textBox1.Location = new System.Drawing.Point(249, 71);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox1.Size = new System.Drawing.Size(711, 379);
+            this.textBox1.TabIndex = 12;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.BackColor = System.Drawing.Color.Firebrick;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(249, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(711, 38);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Υπηρεσίες - Παροχές";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.Unipic2;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 250);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(221, 188);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // ServicesPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.menuStrip2);
@@ -459,6 +478,7 @@
             this.menuStrip1.PerformLayout();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -502,5 +522,6 @@
         private System.Windows.Forms.ToolStripMenuItem φοιτητικέςΠαρατάξειςToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem άλλεςΔραστηριότητεςToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem επιστημονικήΈνωσηToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
