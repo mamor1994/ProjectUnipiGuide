@@ -124,6 +124,9 @@
   <data name="Screenshot-2023-03-08-at-11.25.43-AM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Screenshot-2023-03-08-at-11.25.43-AM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Unilocation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Unilocation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Unipic3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Unipic3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -135,9 +138,6 @@
   </data>
   <data name="des" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\des.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="αρχείο λήψης (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\αρχείο λήψης (2).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2023-09-02 164008" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\Screenshot 2023-09-02 164008.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,16 +178,22 @@
   <data name="graphics-hello-457644" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\graphics-hello-457644.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Unipic4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Unipic4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="αρχείο λήψης (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\αρχείο λήψης (2).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Unipic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Unipic2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="αρχείο λήψης (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\αρχείο λήψης (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Unipic4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Unipic4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\images\images.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="αρχείο λήψης (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\αρχείο λήψης (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photoalbum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photoalbum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

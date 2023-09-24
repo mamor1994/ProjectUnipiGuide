@@ -32,6 +32,7 @@
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
@@ -51,7 +52,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(791, 28);
+            this.menuStrip2.Size = new System.Drawing.Size(791, 30);
             this.menuStrip2.TabIndex = 8;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -61,15 +62,28 @@
             this.goBackToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 26);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.photoalbum;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.button4.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.button4.Location = new System.Drawing.Point(406, 301);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(180, 181);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "Άλμπουμ";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -78,11 +92,11 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(535, 288);
+            this.button3.Location = new System.Drawing.Point(592, 301);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(236, 220);
+            this.button3.Size = new System.Drawing.Size(187, 181);
             this.button3.TabIndex = 11;
-            this.button3.Text = "Exit";
+            this.button3.Text = "Έξοδος";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -92,11 +106,11 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(275, 288);
+            this.button2.Location = new System.Drawing.Point(216, 301);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(236, 220);
+            this.button2.Size = new System.Drawing.Size(184, 181);
             this.button2.TabIndex = 10;
-            this.button2.Text = "Reviews";
+            this.button2.Text = "Κριτικές";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -106,11 +120,11 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(12, 288);
+            this.button1.Location = new System.Drawing.Point(12, 301);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(245, 220);
+            this.button1.Size = new System.Drawing.Size(198, 181);
             this.button1.TabIndex = 9;
-            this.button1.Text = "Calendar";
+            this.button1.Text = "Ημερολόγιο";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // goBackToolStripMenuItem
@@ -181,6 +195,7 @@
             this.BackColor = System.Drawing.SystemColors.GrayText;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(791, 526);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -213,5 +228,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }
