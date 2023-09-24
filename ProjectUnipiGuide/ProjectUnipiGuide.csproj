@@ -458,6 +458,27 @@
   <ItemGroup>
     <None Include="Resources\Unipic2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unipic3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Screenshot-2023-03-08-at-11.25.43-AM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Screenshot 2023-09-02 164008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unipic4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unipic5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unipic6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unipic7.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

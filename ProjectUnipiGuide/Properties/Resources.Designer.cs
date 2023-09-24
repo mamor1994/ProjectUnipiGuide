@@ -103,6 +103,26 @@ namespace ProjectUnipiGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_03_08_at_11_25_43_AM {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot-2023-03-08-at-11.25.43-AM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_09_02_164008 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2023-09-02 164008", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap theotokas {
             get {
                 object obj = ResourceManager.GetObject("theotokas", resourceCulture);
@@ -126,6 +146,56 @@ namespace ProjectUnipiGuide.Properties {
         internal static System.Drawing.Bitmap Unipic2 {
             get {
                 object obj = ResourceManager.GetObject("Unipic2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Unipic3 {
+            get {
+                object obj = ResourceManager.GetObject("Unipic3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Unipic4 {
+            get {
+                object obj = ResourceManager.GetObject("Unipic4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Unipic5 {
+            get {
+                object obj = ResourceManager.GetObject("Unipic5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Unipic6 {
+            get {
+                object obj = ResourceManager.GetObject("Unipic6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Unipic7 {
+            get {
+                object obj = ResourceManager.GetObject("Unipic7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
