@@ -19,8 +19,7 @@ namespace ProjectUnipiGuide
 
         private void LocationPage_Load(object sender, EventArgs e)
         {
-            webBrowser1.ScriptErrorsSuppressed = true;
-            webBrowser1.Navigate("https://www.google.com/maps?q=Πανεπιστήμιο+Πειραιώς");
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -67,6 +66,11 @@ namespace ProjectUnipiGuide
             GenInfoPage form = new GenInfoPage();
             form.Show();
             this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.google.gr/maps?q=Πανεπιστήμιο+Πειραιώς");
         }
     }
 }
