@@ -17,7 +17,7 @@ namespace ProjectUnipiGuide
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GenInfoPage());
+            Application.Run(new HelloPage());
         }
     }
 }
