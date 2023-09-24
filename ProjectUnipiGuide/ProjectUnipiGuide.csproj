@@ -113,6 +113,12 @@
     <Compile Include="EconomicsPage.Designer.cs">
       <DependentUpon>EconomicsPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="HelloPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelloPage.Designer.cs">
+      <DependentUpon>HelloPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="IndustrialManagementPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -301,6 +307,9 @@
     <EmbeddedResource Include="EconomicsPage.resx">
       <DependentUpon>EconomicsPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HelloPage.resx">
+      <DependentUpon>HelloPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IndustrialManagementPage.resx">
       <DependentUpon>IndustrialManagementPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -487,6 +496,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="images\35h4h.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\graphics-hello-457644.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
