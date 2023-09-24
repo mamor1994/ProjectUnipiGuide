@@ -56,7 +56,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(960, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(960, 28);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -104,9 +104,9 @@
             this.ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem,
             this.φοιτιτηκήΚαιΚοινωνικήΖωήToolStripMenuItem,
             this.απόφοιτοιΠανεπιστημίουToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 30);
+            this.menuStrip2.Location = new System.Drawing.Point(0, 28);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(187, 420);
+            this.menuStrip2.Size = new System.Drawing.Size(187, 422);
             this.menuStrip2.TabIndex = 10;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -147,6 +147,7 @@
             // 
             this.σίτησηToolStripMenuItem.Name = "σίτησηToolStripMenuItem";
             this.σίτησηToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.σίτησηToolStripMenuItem.Text = "Βιβλιοθήκη";
             // 
             // ηλεκτρονικέςΥπηρεσίεςToolStripMenuItem
             // 
@@ -173,12 +174,12 @@
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Uighur", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(187, 30);
+            this.textBox1.Location = new System.Drawing.Point(187, 28);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(773, 420);
+            this.textBox1.Size = new System.Drawing.Size(773, 422);
             this.textBox1.TabIndex = 12;
             // 
             // ServicesPage
