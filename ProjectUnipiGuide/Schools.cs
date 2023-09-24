@@ -25,7 +25,7 @@ namespace ProjectUnipiGuide
             ComputerScience.Visible = false;
             Economics.Visible = false;
             Management.Visible = false;
-            EuropeanStudies.Visible = false;
+            InternationalStudies.Visible = false;
             TourismStudies.Visible = false;
             Maritime.Visible = false;
             IndustrialManagement.Visible = false;
@@ -44,7 +44,7 @@ namespace ProjectUnipiGuide
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς η οποία δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";
+            string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς ο οποίος δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";
 
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
@@ -74,7 +74,7 @@ namespace ProjectUnipiGuide
             ComputerScience.Visible = true;
             Economics.Visible = true;
             Management.Visible = true;
-            EuropeanStudies.Visible = true;
+            InternationalStudies.Visible = true;
             TourismStudies.Visible = true;
             Maritime.Visible = false;
             IndustrialManagement.Visible = false;
@@ -88,7 +88,9 @@ namespace ProjectUnipiGuide
 
         private void Maritime_CheckedChanged(object sender, EventArgs e)
         {
-
+            MaritimePage form = new MaritimePage();
+            form.Show();
+            this.Close();
         }
 
         private void MaritimeStudies_Click(object sender, EventArgs e)
@@ -99,7 +101,7 @@ namespace ProjectUnipiGuide
             ComputerScience.Visible = true;
             Economics.Visible = false;
             Management.Visible = false;
-            EuropeanStudies.Visible = false;
+            InternationalStudies.Visible = false;
             TourismStudies.Visible = false;
             Maritime.Visible = true;
             IndustrialManagement.Visible = true;
@@ -117,7 +119,7 @@ namespace ProjectUnipiGuide
             ComputerScience.Visible = true;
             Economics.Visible = false;
             Management.Visible = false;
-            EuropeanStudies.Visible = false;
+            InternationalStudies.Visible = false;
             TourismStudies.Visible = false;
             Maritime.Visible = false;
             IndustrialManagement.Visible = false;
@@ -125,6 +127,55 @@ namespace ProjectUnipiGuide
             Statistics.Visible = true;
             Informatics.Visible = false;
             DigitalSystems.Visible = false;
+        }
+
+        private void Management_CheckedChanged(object sender, EventArgs e)
+        {
+            BusinessAdministrationPage form = new BusinessAdministrationPage();
+            form.Show();
+            this.Hide();
+        }
+
+        private void InternationalStudies_CheckedChanged(object sender, EventArgs e)
+        {
+            InternationalStudiesPage form = new InternationalStudiesPage();
+            form.Show();
+            this.Hide();
+        }
+
+        private void TourismStudies_CheckedChanged(object sender, EventArgs e)
+        {
+            TourismStudiesPage form = new TourismStudiesPage();
+            form.Show();
+            this.Close();
+        }
+
+        private void IndustrialManagement_CheckedChanged(object sender, EventArgs e)
+        {
+            IndustrialManagementPage form = new IndustrialManagementPage();
+            form.Show();
+            this.Close();
+        }
+
+        private void Banking_CheckedChanged(object sender, EventArgs e)
+        {
+            BankingStudiesPage form = new BankingStudiesPage();
+            form.Show();
+            this.Close();
+        }
+
+        private void Statistics_CheckedChanged(object sender, EventArgs e)
+        {
+            StatisticsSciencePage form = new StatisticsSciencePage();
+            form.Show();
+            this.Close();
+        }
+
+        private void Economics_CheckedChanged(object sender, EventArgs e)
+        {
+            EconomicsPage form = new EconomicsPage();
+            form.Show();
+            this.Close();
         }
     }
 }

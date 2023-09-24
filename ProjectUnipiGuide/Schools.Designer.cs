@@ -42,7 +42,7 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Economics = new System.Windows.Forms.RadioButton();
             this.Management = new System.Windows.Forms.RadioButton();
-            this.EuropeanStudies = new System.Windows.Forms.RadioButton();
+            this.InternationalStudies = new System.Windows.Forms.RadioButton();
             this.TourismStudies = new System.Windows.Forms.RadioButton();
             this.Maritime = new System.Windows.Forms.RadioButton();
             this.IndustrialManagement = new System.Windows.Forms.RadioButton();
@@ -189,6 +189,7 @@
             this.Economics.Text = "Τμήμα Οικονομικής Επιστήμης";
             this.Economics.UseVisualStyleBackColor = true;
             this.Economics.Visible = false;
+            this.Economics.CheckedChanged += new System.EventHandler(this.Economics_CheckedChanged);
             // 
             // Management
             // 
@@ -203,20 +204,22 @@
             this.Management.Text = "Τμήμα Οργάνωσης \r\nκαι Διοίκησης Επιχειρήσεων";
             this.Management.UseVisualStyleBackColor = true;
             this.Management.Visible = false;
+            this.Management.CheckedChanged += new System.EventHandler(this.Management_CheckedChanged);
             // 
-            // EuropeanStudies
+            // InternationalStudies
             // 
-            this.EuropeanStudies.AutoSize = true;
-            this.EuropeanStudies.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.EuropeanStudies.ForeColor = System.Drawing.Color.Firebrick;
-            this.EuropeanStudies.Location = new System.Drawing.Point(12, 109);
-            this.EuropeanStudies.Name = "EuropeanStudies";
-            this.EuropeanStudies.Size = new System.Drawing.Size(306, 20);
-            this.EuropeanStudies.TabIndex = 11;
-            this.EuropeanStudies.TabStop = true;
-            this.EuropeanStudies.Text = "Τμήμα Διεθνών και Ευρωπαϊκών Σπουδών";
-            this.EuropeanStudies.UseVisualStyleBackColor = true;
-            this.EuropeanStudies.Visible = false;
+            this.InternationalStudies.AutoSize = true;
+            this.InternationalStudies.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.InternationalStudies.ForeColor = System.Drawing.Color.Firebrick;
+            this.InternationalStudies.Location = new System.Drawing.Point(12, 109);
+            this.InternationalStudies.Name = "InternationalStudies";
+            this.InternationalStudies.Size = new System.Drawing.Size(306, 20);
+            this.InternationalStudies.TabIndex = 11;
+            this.InternationalStudies.TabStop = true;
+            this.InternationalStudies.Text = "Τμήμα Διεθνών και Ευρωπαϊκών Σπουδών";
+            this.InternationalStudies.UseVisualStyleBackColor = true;
+            this.InternationalStudies.Visible = false;
+            this.InternationalStudies.CheckedChanged += new System.EventHandler(this.InternationalStudies_CheckedChanged);
             // 
             // TourismStudies
             // 
@@ -231,6 +234,7 @@
             this.TourismStudies.Text = "Τμήμα Τουριστικών Σπουδών";
             this.TourismStudies.UseVisualStyleBackColor = true;
             this.TourismStudies.Visible = false;
+            this.TourismStudies.CheckedChanged += new System.EventHandler(this.TourismStudies_CheckedChanged);
             // 
             // Maritime
             // 
@@ -260,6 +264,7 @@
             this.IndustrialManagement.Text = "Τμήμα Βιομηχανικής Διοίκησης \r\n και Τεχνολογίας";
             this.IndustrialManagement.UseVisualStyleBackColor = true;
             this.IndustrialManagement.Visible = false;
+            this.IndustrialManagement.CheckedChanged += new System.EventHandler(this.IndustrialManagement_CheckedChanged);
             // 
             // Banking
             // 
@@ -274,6 +279,7 @@
             this.Banking.Text = "Τμήμα Χρηματοοικονομικής\r\nκαι Τραπεζικής Διοικητικής";
             this.Banking.UseVisualStyleBackColor = true;
             this.Banking.Visible = false;
+            this.Banking.CheckedChanged += new System.EventHandler(this.Banking_CheckedChanged);
             // 
             // Statistics
             // 
@@ -288,6 +294,7 @@
             this.Statistics.Text = "Τμήμα Στατιστικής\r\nκαι Ασφαλιστικής Επιστήμης";
             this.Statistics.UseVisualStyleBackColor = true;
             this.Statistics.Visible = false;
+            this.Statistics.CheckedChanged += new System.EventHandler(this.Statistics_CheckedChanged);
             // 
             // Schools
             // 
@@ -301,7 +308,7 @@
             this.Controls.Add(this.IndustrialManagement);
             this.Controls.Add(this.Maritime);
             this.Controls.Add(this.TourismStudies);
-            this.Controls.Add(this.EuropeanStudies);
+            this.Controls.Add(this.InternationalStudies);
             this.Controls.Add(this.Management);
             this.Controls.Add(this.Economics);
             this.Controls.Add(this.menuStrip2);
@@ -338,7 +345,7 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.RadioButton Economics;
         private System.Windows.Forms.RadioButton Management;
-        private System.Windows.Forms.RadioButton EuropeanStudies;
+        private System.Windows.Forms.RadioButton InternationalStudies;
         private System.Windows.Forms.RadioButton TourismStudies;
         private System.Windows.Forms.RadioButton Maritime;
         private System.Windows.Forms.RadioButton IndustrialManagement;

@@ -117,23 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\images\gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="des" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\des.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\image1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Unipic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Unipic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UnipiPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UnipiPic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="theotokas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\theotokas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Το Τμήμα Ναυτιλιακών Σπουδών αποτελεί κορυφαία επιλογή για σπουδές στη ναυτιλία και τις μεταφορές.  Συγκαταλέγεται μεταξύ των πρωτοπόρων πανεπιστημιακών τμημάτων, σε παγκόσμιο επίπεδο, που θεμελίωσαν τις σπουδές στα συγκεκριμένα πεδία.
+
+Το Τμήμα προσφέρει στους φοιτητές και τις φοιτήτριες του άρτια επιστημονική κατάρτιση σε προπτυχιακό, μεταπτυχιακό και διδακτορικό επίπεδο σπουδών, καθώς διαθέτει:
+
+-συσσωρευμένη εμπειρία και γνώση, απόρροια των τεσσάρων δεκαετιών λειτουργίας του,
+-υψηλής ποιότητας επιστημονικό δυναμικό με διακρίσεις και αναγνώριση σε παγκόσμιο επίπεδο
+-δικτύωση με τους φορείς και τις επιχειρήσεις του κλάδου,
+-συνεργασίες με ακαδημαϊκά τμήματα και ερευνητικά κέντρα του εξωτερικού
+-άρτια διοικητική στελέχωση και υποδομή
+
+Έχοντας ως βάση το παγκόσμιας εμβέλειας και ακτινοβολίας ναυτιλιακό κέντρο του Πειραιά, τη ναυτιλιακή πρωτεύουσα που φιλοξενεί τη μεγαλύτερη ναυτιλία του κόσμου και το δυναμικότερο ναυτιλιακό cluster της Ευρώπης, το Τμήμα Ναυτιλιακών Σπουδών είναι σε θέση να συνδέεται στενά και να βρίσκεται σε σχέση αλληλοϋποστήριξης με τους φορείς και τους οργανισμούς της ναυτιλίας. Έχει έτσι τη δυνατότητα να αντλεί πρακτικές γνώσεις και να προσαρμόζει τα προγράμματά του ώστε να υποστηρίζουν τις παραγωγικές ανάγκες της ναυτιλίας και των μεταφορών.
+
+Παράλληλα, μέσω της ερευνητικής δραστηριότητας και των διεθνών συνεργασιών του, το επιστημονικό δυναμικό του Τμήματος συμβάλλει στην παραγωγή νέας γνώσης τόσο σε παραδοσιακά ερευνητικά πεδία, όσο και σε πεδία που βρίσκονται στην αιχμή της προσπάθειας για την προσαρμογή της ναυτιλίας και των μεταφορών στο νέο, τεχνολογικά εξελιγμένο περιβάλλον που στηρίζεται στις αρχές της βιώσιμης ανάπτυξης.
+
+Οι σπουδές στο Τμήμα συνδυάζουν τις αναγκαίες αναλυτικές και συνθετικές ικανότητες, με την επιστημονική εξειδίκευση και με τις θεωρητικές και πρακτικές γνώσεις που αποτελούν εφόδια για την επαγγελματική σταδιοδρομία στη ναυτιλία ή για περαιτέρω σπουδές και έρευνα.
+
+Γιάννης Θεοτοκάς
+Πρόεδρος Τμήματος Ναυτιλιακών Σπουδών</value>
   </data>
 </root>

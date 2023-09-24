@@ -17,7 +17,7 @@ namespace ProjectUnipiGuide
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EconomicsPage());
+            Application.Run(new BusinessAdministrationPage());
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjectUnipiGuide
 {
-    public partial class ServicesPage : Form
+    public partial class StatisticsSciencePage : Form
     {
-        public ServicesPage()
+        public StatisticsSciencePage()
         {
             InitializeComponent();
         }
@@ -31,9 +31,20 @@ namespace ProjectUnipiGuide
 
         private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MainPage form = new MainPage();
-            form.Show();
-            this.Hide();
+            Schools schools = new Schools();
+            schools.Show();
+            this.Close();
         }
+
+        private void StatisticsSciencePage_Load(object sender, EventArgs e)
+        {
+            textBox1.GotFocus += textBox1_GotFocus;
+        }
+
+        private void textBox1_GotFocus(object sender, EventArgs e)
+        {
+            ((TextBox)sender).Parent.Focus();
+        }
+    
     }
 }
