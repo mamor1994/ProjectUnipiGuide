@@ -63,6 +63,16 @@ namespace ProjectUnipiGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cancel {
+            get {
+                object obj = ResourceManager.GetObject("cancel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap des {
             get {
                 object obj = ResourceManager.GetObject("des", resourceCulture);
@@ -113,9 +123,29 @@ namespace ProjectUnipiGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Unipic2 {
+            get {
+                object obj = ResourceManager.GetObject("Unipic2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap UnipiPic {
             get {
                 object obj = ResourceManager.GetObject("UnipiPic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap αρχείο_λήψης {
+            get {
+                object obj = ResourceManager.GetObject("αρχείο λήψης", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

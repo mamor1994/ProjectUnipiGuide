@@ -449,6 +449,15 @@
   <ItemGroup>
     <None Include="Resources\theotokas.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="images\αρχείο λήψης.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unipic2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
