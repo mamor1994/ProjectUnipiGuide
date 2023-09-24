@@ -47,7 +47,7 @@
             this.GenInfo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GenInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.GenInfo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.GenInfo.Location = new System.Drawing.Point(12, 44);
+            this.GenInfo.Location = new System.Drawing.Point(12, 129);
             this.GenInfo.Name = "GenInfo";
             this.GenInfo.Size = new System.Drawing.Size(245, 220);
             this.GenInfo.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.Services.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Services.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Services.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Services.Location = new System.Drawing.Point(505, 55);
+            this.Services.Location = new System.Drawing.Point(536, 133);
             this.Services.Name = "Services";
             this.Services.Size = new System.Drawing.Size(266, 218);
             this.Services.TabIndex = 2;
@@ -78,7 +78,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip2.Size = new System.Drawing.Size(813, 28);
             this.menuStrip2.TabIndex = 8;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -121,7 +121,7 @@
             this.Schools.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Schools.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.Schools.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Schools.Location = new System.Drawing.Point(263, 53);
+            this.Schools.Location = new System.Drawing.Point(280, 131);
             this.Schools.Name = "Schools";
             this.Schools.Size = new System.Drawing.Size(236, 220);
             this.Schools.TabIndex = 1;
@@ -133,9 +133,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.Screenshot_2023_09_02_164008;
+            this.BackColor = System.Drawing.SystemColors.GrayText;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(813, 450);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.Services);
             this.Controls.Add(this.Schools);
