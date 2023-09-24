@@ -20,6 +20,8 @@ namespace ProjectUnipiGuide
         {
             InitializeComponent();
             synthesizer = new SpeechSynthesizer();
+            timer1.Interval = 10000;
+            timer1.Start();
         }
 
         private void btnSpeech_Click(object sender, EventArgs e)
@@ -35,8 +37,8 @@ namespace ProjectUnipiGuide
 
         private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //EntrancePage form = new EntrancePage();
-            //form.Show();
+            MainPage form = new MainPage();
+            form.Show();
             this.Hide();
         }
 
@@ -50,6 +52,12 @@ namespace ProjectUnipiGuide
         {
             string textToSpeak = "Thanks for your time";
             synthesizer.SpeakAsync(textToSpeak);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            Application.Exit();
         }
     }
 }

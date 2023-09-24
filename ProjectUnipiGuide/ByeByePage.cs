@@ -15,6 +15,8 @@ namespace ProjectUnipiGuide
         public ByeByePage()
         {
             InitializeComponent();
+            timer1.Interval = 7000;
+            timer1.Start();
         }
 
         private void ByeByePage_Load(object sender, EventArgs e)
@@ -30,7 +32,7 @@ namespace ProjectUnipiGuide
 
         private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            EndPage form = new EndPage();
+            MainPage form = new MainPage();
             form.ShowDialog();
             this.Hide();
         }
@@ -39,6 +41,14 @@ namespace ProjectUnipiGuide
         {
             string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς η οποία δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            this.Hide();
+            EndPage form = new EndPage();
+            form.Show();
         }
     }
 }
