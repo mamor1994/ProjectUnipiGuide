@@ -103,6 +103,16 @@ namespace ProjectUnipiGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap papei_adip_2 {
+            get {
+                object obj = ResourceManager.GetObject("papei_adip_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot_2023_03_08_at_11_25_43_AM {
             get {
                 object obj = ResourceManager.GetObject("Screenshot-2023-03-08-at-11.25.43-AM", resourceCulture);
@@ -206,6 +216,16 @@ namespace ProjectUnipiGuide.Properties {
         internal static System.Drawing.Bitmap UnipiPic {
             get {
                 object obj = ResourceManager.GetObject("UnipiPic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap University_of_Piraeus_Logo {
+            get {
+                object obj = ResourceManager.GetObject("University-of-Piraeus-Logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -43,50 +43,58 @@
             // 
             // btnPlOverviewPage
             // 
+            this.btnPlOverviewPage.BackColor = System.Drawing.Color.Gainsboro;
             this.btnPlOverviewPage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPlOverviewPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPlOverviewPage.Location = new System.Drawing.Point(345, 76);
+            this.btnPlOverviewPage.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, System.Drawing.FontStyle.Italic);
+            this.btnPlOverviewPage.Location = new System.Drawing.Point(114, 168);
             this.btnPlOverviewPage.Name = "btnPlOverviewPage";
-            this.btnPlOverviewPage.Size = new System.Drawing.Size(225, 58);
+            this.btnPlOverviewPage.Size = new System.Drawing.Size(225, 69);
             this.btnPlOverviewPage.TabIndex = 0;
             this.btnPlOverviewPage.Text = "Overview";
-            this.btnPlOverviewPage.UseVisualStyleBackColor = true;
+            this.btnPlOverviewPage.UseVisualStyleBackColor = false;
             this.btnPlOverviewPage.Click += new System.EventHandler(this.btnPlOverviewPage_Click);
             // 
             // btnPlProfessorsPage
             // 
+            this.btnPlProfessorsPage.BackColor = System.Drawing.Color.Gainsboro;
             this.btnPlProfessorsPage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPlProfessorsPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPlProfessorsPage.Location = new System.Drawing.Point(345, 157);
+            this.btnPlProfessorsPage.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, System.Drawing.FontStyle.Italic);
+            this.btnPlProfessorsPage.Location = new System.Drawing.Point(114, 277);
             this.btnPlProfessorsPage.Name = "btnPlProfessorsPage";
-            this.btnPlProfessorsPage.Size = new System.Drawing.Size(225, 64);
+            this.btnPlProfessorsPage.Size = new System.Drawing.Size(225, 69);
             this.btnPlProfessorsPage.TabIndex = 1;
             this.btnPlProfessorsPage.Text = "Professors";
-            this.btnPlProfessorsPage.UseVisualStyleBackColor = true;
+            this.btnPlProfessorsPage.UseVisualStyleBackColor = false;
             this.btnPlProfessorsPage.Click += new System.EventHandler(this.btnPlProfessorsPage_Click);
             // 
             // btnPlPage
             // 
+            this.btnPlPage.BackColor = System.Drawing.Color.Gainsboro;
             this.btnPlPage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPlPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPlPage.Location = new System.Drawing.Point(345, 250);
+            this.btnPlPage.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, System.Drawing.FontStyle.Italic);
+            this.btnPlPage.Location = new System.Drawing.Point(381, 168);
             this.btnPlPage.Name = "btnPlPage";
             this.btnPlPage.Size = new System.Drawing.Size(225, 69);
             this.btnPlPage.TabIndex = 2;
-            this.btnPlPage.Text = "Σελίδα Τμήματος Πληροφορικής";
-            this.btnPlPage.UseVisualStyleBackColor = true;
+            this.btnPlPage.Text = "Σελίδα Τμήματος ";
+            this.btnPlPage.UseVisualStyleBackColor = false;
             this.btnPlPage.Click += new System.EventHandler(this.btnPlPage_Click);
             // 
             // btnPlVideoPage
             // 
+            this.btnPlVideoPage.BackColor = System.Drawing.Color.Gainsboro;
             this.btnPlVideoPage.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPlVideoPage.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnPlVideoPage.Location = new System.Drawing.Point(345, 352);
+            this.btnPlVideoPage.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, System.Drawing.FontStyle.Italic);
+            this.btnPlVideoPage.Location = new System.Drawing.Point(381, 277);
             this.btnPlVideoPage.Name = "btnPlVideoPage";
-            this.btnPlVideoPage.Size = new System.Drawing.Size(225, 77);
+            this.btnPlVideoPage.Size = new System.Drawing.Size(225, 69);
             this.btnPlVideoPage.TabIndex = 3;
-            this.btnPlVideoPage.Text = "Βίντεο Τμήματος Πληροφορικής";
-            this.btnPlVideoPage.UseVisualStyleBackColor = true;
+            this.btnPlVideoPage.Text = "Βίντεο Τμήματος ";
+            this.btnPlVideoPage.UseVisualStyleBackColor = false;
             this.btnPlVideoPage.Click += new System.EventHandler(this.btnPlVideoPage_Click);
             // 
             // menuStrip2
@@ -97,7 +105,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip2.Size = new System.Drawing.Size(717, 30);
             this.menuStrip2.TabIndex = 9;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -137,7 +145,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.University_of_Piraeus_Logo;
+            this.ClientSize = new System.Drawing.Size(717, 450);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.btnPlVideoPage);
             this.Controls.Add(this.btnPlPage);
