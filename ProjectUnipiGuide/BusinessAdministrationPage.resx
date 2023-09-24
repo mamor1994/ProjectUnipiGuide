@@ -117,23 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\images\gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="des" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\des.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\image1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Unipic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Unipic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UnipiPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UnipiPic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="theotokas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\theotokas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Στόχος του Τμήματος είναι η παροχή θεωρητικής και πρακτικής εκπαίδευσης σε θέματα που αφορούν τη διοίκηση επιχειρήσεων του ιδιωτικού και δημόσιου τομέα.
+
+Στα πλαίσια του γενικότερου αυτού στόχου, το πρόγραμμα σπουδών του τμήματος στηρίζεται σε ένα σύστημα γνώσεων και μεθόδων, που προάγει επιστημονικά τους φοιτητές, τους εξοικειώνει με τη ζωή και τη δράση των
+επιχειρήσεων και διευρύνει τους επαγγελματικούς τους προσανατολισμούς. Οργανωτικά το πρόγραμμα περιλαμβάνει μεγάλο αριθμό μαθημάτων που καλύπτουν τις περιοχές της Λογιστικής και Χρηματοοικονομικής, της Διοίκησης Παραγωγής, του Μάρκετινγκ, της Διοίκησης Προσωπικού, της Διαχείρισης Περιβάλλοντος κ.ά.
+
+Το Τμήμα, παρακολουθώντας τη δυναμική των εξελίξεων στην οικονομία και τεχνολογία και διατηρώντας την αναγκαία ευελιξία, έχει τη δυνατότητα προσαρμογών που προετοιμάζουν διοικητικά στελέχη, ικανά για την ενίσχυση της ανταγωνιστικότητας των επιχειρήσεων.
+
+Το Πρόγραμμα Σπουδών του Τμήματος απευθύνεται στους φοιτητές που επιθυμούν να αναδειχθούν σε ανώτερα και ανώτατα στελέχη επιχειρήσεων και οργανισμών.</value>
   </data>
 </root>

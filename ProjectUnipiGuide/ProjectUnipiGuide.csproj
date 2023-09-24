@@ -86,7 +86,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BankingStudiesPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BankingStudiesPage.Designer.cs">
+      <DependentUpon>BankingStudiesPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="BLL\ClassBLL.cs" />
+    <Compile Include="BusinessAdministrationPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BusinessAdministrationPage.Designer.cs">
+      <DependentUpon>BusinessAdministrationPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="DAL\Connection.cs" />
     <Compile Include="DAL\ClassDAL.cs" />
     <Compile Include="AddReviewPage.cs">
@@ -101,11 +113,29 @@
     <Compile Include="EconomicsPage.Designer.cs">
       <DependentUpon>EconomicsPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="IndustrialManagementPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndustrialManagementPage.Designer.cs">
+      <DependentUpon>IndustrialManagementPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InternationalStudiesPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InternationalStudiesPage.Designer.cs">
+      <DependentUpon>InternationalStudiesPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="LocationPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LocationPage.Designer.cs">
       <DependentUpon>LocationPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaritimePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaritimePage.Designer.cs">
+      <DependentUpon>MaritimePage.cs</DependentUpon>
     </Compile>
     <Compile Include="PsSOverviewPage.cs">
       <SubType>Form</SubType>
@@ -148,6 +178,18 @@
     </Compile>
     <Compile Include="ServicesPage.Designer.cs">
       <DependentUpon>ServicesPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatisticsSciencePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StatisticsSciencePage.Designer.cs">
+      <DependentUpon>StatisticsSciencePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TourismStudiesPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TourismStudiesPage.Designer.cs">
+      <DependentUpon>TourismStudiesPage.cs</DependentUpon>
     </Compile>
     <Compile Include="UniHistoryPage.cs">
       <SubType>Form</SubType>
@@ -250,11 +292,26 @@
     <EmbeddedResource Include="AddReviewPage.resx">
       <DependentUpon>AddReviewPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BankingStudiesPage.resx">
+      <DependentUpon>BankingStudiesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusinessAdministrationPage.resx">
+      <DependentUpon>BusinessAdministrationPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EconomicsPage.resx">
       <DependentUpon>EconomicsPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IndustrialManagementPage.resx">
+      <DependentUpon>IndustrialManagementPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InternationalStudiesPage.resx">
+      <DependentUpon>InternationalStudiesPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LocationPage.resx">
       <DependentUpon>LocationPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaritimePage.resx">
+      <DependentUpon>MaritimePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PsSOverviewPage.resx">
       <DependentUpon>PsSOverviewPage.cs</DependentUpon>
@@ -276,6 +333,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ServicesPage.resx">
       <DependentUpon>ServicesPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsSciencePage.resx">
+      <DependentUpon>StatisticsSciencePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TourismStudiesPage.resx">
+      <DependentUpon>TourismStudiesPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UniHistoryPage.resx">
       <DependentUpon>UniHistoryPage.cs</DependentUpon>
@@ -376,6 +439,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\UnipiPic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unipic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\des.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\theotokas.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

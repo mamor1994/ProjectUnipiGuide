@@ -117,23 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\images\gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="des" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\des.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\image1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Unipic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Unipic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UnipiPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UnipiPic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="theotokas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\theotokas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Το Τμήμα Τουριστικών Σπουδών έχει ως βασικό σκοπό να καλύπτει τις ανάγκες του ευρύτατου πεδίου του Τουρισμού, με στελέχη ανώτατης πανεπιστημιακής εκπαίδευσης που θα πληρούν όλες τις προϋποθέσεις για μια εξαίρετη σταδιοδρομία σε μεσαίες, ανώτερες και ανώτατες θέσεις σε όλους τους κλάδους της Τουριστικής Βιομηχανίας, αλλά και σε όλους τους φορείς τουριστικών ενδιαφερόντων που δρουν σε μάκρο-επίπεδο, που ασχολούνται δηλαδή με την ανάπτυξη και την πολιτική στον Τουρισμό σε εθνικό, περιφερειακό και τοπικό επίπεδο.
+
+
+Οι απόφοιτοι του Τμήματος θα πρέπει να καλύπτουν, ιδίως, την ανάγκη για στελέχη πανεπιστημιακού επιπέδου των επιχειρηματικών δραστηριοτήτων Τουρισμού, όπως για παράδειγμα τα ξενοδοχεία, τα ταξιδιωτικά πρακτορεία, οι επιχειρήσεις ειδικών και εναλλακτικών μορφών Τουρισμού κ.λπ. Επίσης οι απόφοιτοι του συγκεκριμένου Τμήματος θα κληθούν να καλύψουν θέματα διαχείρισης και πολιτικής της τουριστικής ανάπτυξης, όπως, για παράδειγμα, οι αναπτυξιακοί και ερευνητικοί φορείς οι σχετικοί με τον Τουρισμό και οι οργανώσεις σχεδιασμού και διαχείρισης του Τουρισμού.
+
+
+Το Τμήμα Τουριστικών Σπουδών σκοπεύει να «παράγει» αποφοίτους που θα γίνουν μάνατζερς με δυνατότητα κατανοήσεως του τρόπου με τον οποίο θα κεφαλαιοποιούν τις ευκαιρίες, θα επιλύουν προβλήματα και θα αντιμετωπίζουν δυσκολίες, θα διαχειρίζονται τις λειτουργίες, θα εμπορεύονται τις υπηρεσίες και τις εγκαταστάσεις των επιχειρήσεων τις οποίες θα διαχειρίζονται και θα αναπτύσσουν εξαιρετικές σχέσεις με το προσωπικό των επιχειρήσεων ή των οργανισμών όπου θα απασχολούνται.
+
+
+Η ανταγωνιστικότητα της Τουριστικής Βιομηχανίας περνά μέσα από την ποιότητά της και η ποιότητα αυτή περνά μέσα από την ποιότητα της εκπαίδευσης για τα στελέχη του Τουρισμού. Είναι επομένως ανάγκη να δημιουργήσουμε ανταγωνιστικά συστήματα τουριστικής εκπαίδευσης και να δοθεί έμφαση σε θέματα ποιότητας και αποτελεσματικότητας. Το Τμήμα Τουριστικών Σπουδών του Πανεπιστημίου Πειραιώς προσφέρει ένα ανταγωνιστικό, ποιοτικό εκπαιδευτικό περιβάλλον, ανταποκρινόμενο στο σύγχρονο, δυναμικό και γεμάτο προκλήσεις κλάδο του Τουρισμού.</value>
   </data>
 </root>

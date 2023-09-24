@@ -63,6 +63,16 @@ namespace ProjectUnipiGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap des {
+            get {
+                object obj = ResourceManager.GetObject("des", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gif {
             get {
                 object obj = ResourceManager.GetObject("gif", resourceCulture);
@@ -76,6 +86,26 @@ namespace ProjectUnipiGuide.Properties {
         internal static System.Drawing.Bitmap image1 {
             get {
                 object obj = ResourceManager.GetObject("image1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap theotokas {
+            get {
+                object obj = ResourceManager.GetObject("theotokas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Unipic {
+            get {
+                object obj = ResourceManager.GetObject("Unipic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

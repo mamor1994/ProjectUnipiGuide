@@ -117,23 +117,30 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\images\gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="des" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\des.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\image1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Unipic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Unipic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UnipiPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UnipiPic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="theotokas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\theotokas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Πότε Ιδρύθηκε: Το Τμήμα δημιουργήθηκε και λειτούργησε για πρώτη φορά με την ονομασία «Τμήμα Στατιστικής» το Ακαδημαϊκό Έτος 1977-78 στο πλαίσιο της Ανώτατης Βιομηχανικής Σχολής Πειραιώς (Υπ. Απόφ. 96792/21-9-77, Φ.Ε.Κ. 984Β/8-10-77). Με το Νόμο Πλαίσιο για τα Α.Ε.Ι. και από το Ακαδημαϊκό Έτος 1984-85 (Ν.Δ. 1268/82 και Π.Δ. 43/1984) λειτούργησε ως ανεξάρτητο Τμήμα Στατιστικής και Ασφαλιστικής Επιστήμης.
+
+Ποιος ο σκοπός του: Σκοπός το Τμήματος είναι η θεωρητική εκπαίδευση και η πρακτική κατάρτιση των φοιτητών στα γνωστικά πεδία της Στατιστικής και Ασφαλιστικής Επιστήμης. Το πρόγραμμα σπουδών του Τμήματος, πέραν των απαραίτητων μαθημάτων υποδομής και των μαθημάτων γενικού ενδιαφέροντος, αποτελείται από μία συστηματική σύνθεση μαθημάτων από θεωρητικά και εφαρμοσμένα γνωστικά αντικείμενα των επιστημονικών αυτών κλάδων. Οι φοιτητές του Τμήματος έχουν τη δυνατότητα απόκτησης ειδικότητας σε στατιστικά ή ασφαλιστικά θέματα, με παράλληλη απόκτηση σχετικών γνώσεων Εφαρμοσμένης Πληροφορικής. 
+
+Σε ποιους απευθύνεται: Το Πρόγραμμα Σπουδών απευθύνεται στους φοιτητές που επιθυμούν να εξελιχθούν σε στελέχη ιδιωτικών και δημόσιων επιχειρήσεων, ασφαλιστικών οργανισμών και ερευνητικών κέντρων. 
+
+Που βρίσκεται: Το Τμήμα Στατιστικής και Ασφαλιστικής Επιστήμης στεγάζεται στο κεντρικό κτήριο του Πανεπιστημίου Πειραιώς. Το γραφείο του Προέδρου και τα περισσότερα γραφεία των μελών Δ.Ε.Π. του Τμήματος βρίσκονται στον 5ο όροφο ενώ η Γραμματεία του Τμήματος στον 1ο όροφο του κεντρικού κτηρίου. Γραφεία μελών Δ.Ε.Π. υπάρχουν και στο κτήριο της οδού Λαμπράκη 126. Οι αίθουσες διδασκαλίας, τα αμφιθέατρα και τα εργαστήρια των φοιτητών βρίσκονται στο ισόγειο και στον 1ο, 2ο και 3ο όροφο του κεντρικού κτηρίου ενώ μερικά μαθήματα επιλογής διδάσκονται σε αίθουσες διδασκαλίας στο Νεοκλασσικό Κτήριο και στο Κτήριο της οδού Γρ. Λαμπράκη 21 (γωνία με οδό Διστόμου).
+
+Ποιες οι υποδομές του: Το Τμήμα διαθέτει τον απαραίτητο εξοπλισμό Πληροφορικής (PC, προγράμματα κ.λ.π.) για την εκπαίδευση των φοιτητών στην αντιμετώπιση θεωρητικών και πρακτικών στατιστικών και ασφαλιστικών προβλημάτων. Επίσης λειτουργούν και οι ακόλουθες ηλεκτρονικές υπηρεσίες:
+
+Η Υπηρεσία Πληροφόρησης Φοιτητών στη διεύθυνση: 
+http://students.unipi.gr
+
+όπου παρέχονται υπηρεσίες πληροφόρησης για θέματα βαθμολογίας, δηλώσεων μαθημάτων, προγραμμάτων σπουδών, διδασκαλίας και εξετάσεων.
+
+Το Εργαστήριο Ασύγχρονης Διδασκαλίας μέσω του Web (γνωστό και ως e-class) στη διεύθυνση
+http://eclass.unipi.gr
+
+όπου οι φοιτητές μπορούν να βρουν ηλεκτρονικές σελίδες των μαθημάτων του προγράμματος σπουδών.
+
+Αναλυτικές πληροφορίες σχετικά με τη λειτουργία του Τμήματος και την εκπαίδευση που παρέχει μπορείτε να βρείτε στον Οδηγό Σπουδών του Τμήματος. </value>
   </data>
 </root>

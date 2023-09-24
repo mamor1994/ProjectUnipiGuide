@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjectUnipiGuide
 {
-    public partial class ServicesPage : Form
+    public partial class InternationalStudiesPage : Form
     {
-        public ServicesPage()
+        public InternationalStudiesPage()
         {
             InitializeComponent();
         }
@@ -24,16 +24,27 @@ namespace ProjectUnipiGuide
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Schools schools = new Schools();
+            schools.Show();
+            this.Close();
+        }
+
+        private void exitToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
+        private void InternationalStudiesPage_Load(object sender, EventArgs e)
         {
-            MainPage form = new MainPage();
-            form.Show();
-            this.Hide();
+            textBox1.GotFocus += textBox1_GotFocus;
         }
+
+        private void textBox1_GotFocus(object sender, EventArgs e)
+        {
+            ((TextBox)sender).Parent.Focus();
+        }
+    
     }
 }

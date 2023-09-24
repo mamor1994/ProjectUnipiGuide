@@ -1,6 +1,6 @@
 ﻿namespace ProjectUnipiGuide
 {
-    partial class EconomicsPage
+    partial class BusinessAdministrationPage
     {
         /// <summary>
         /// Required designer variable.
@@ -28,41 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EconomicsPage));
-            this.label1 = new System.Windows.Forms.Label();
-            this.infotext = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BusinessAdministrationPage));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.goBackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.Unipi = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Unipi)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label1.Location = new System.Drawing.Point(12, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(253, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Τμήμα Οικονομικής Επιστήμης";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // infotext
-            // 
-            this.infotext.Cursor = System.Windows.Forms.Cursors.Default;
-            this.infotext.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.infotext.Location = new System.Drawing.Point(16, 66);
-            this.infotext.Multiline = true;
-            this.infotext.Name = "infotext";
-            this.infotext.ReadOnly = true;
-            this.infotext.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.infotext.Size = new System.Drawing.Size(584, 454);
-            this.infotext.TabIndex = 2;
-            this.infotext.Text = resources.GetString("infotext.Text");
             // 
             // menuStrip1
             // 
@@ -72,8 +49,8 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(684, 28);
-            this.menuStrip1.TabIndex = 3;
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
@@ -85,42 +62,76 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
             // goBackToolStripMenuItem
             // 
             this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
-            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
+            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.goBackToolStripMenuItem.Text = "Go Back";
             this.goBackToolStripMenuItem.Click += new System.EventHandler(this.goBackToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
-            // aboutToolStripMenuItem
+            // label1
             // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
-            this.aboutToolStripMenuItem.Text = "About";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Cambria", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label1.Location = new System.Drawing.Point(12, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(389, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Τμήμα Οργάνωσης και Διοίκησης Επιχειρήσεων";
             // 
-            // EconomicsPage
+            // richTextBox1
+            // 
+            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.richTextBox1.Location = new System.Drawing.Point(12, 70);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.richTextBox1.ShowSelectionMargin = true;
+            this.richTextBox1.Size = new System.Drawing.Size(696, 308);
+            this.richTextBox1.TabIndex = 2;
+            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            // 
+            // Unipi
+            // 
+            this.Unipi.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.Unipic;
+            this.Unipi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Unipi.Location = new System.Drawing.Point(440, 88);
+            this.Unipi.Name = "Unipi";
+            this.Unipi.Size = new System.Drawing.Size(246, 166);
+            this.Unipi.TabIndex = 3;
+            this.Unipi.TabStop = false;
+            // 
+            // BusinessAdministrationPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(684, 462);
-            this.Controls.Add(this.infotext);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Unipi);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "EconomicsPage";
+            this.Name = "BusinessAdministrationPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EconomicsPage";
-            this.Load += new System.EventHandler(this.EconomicsPage_Load);
+            this.Text = "BusinessAdministrationPage";
+            this.Load += new System.EventHandler(this.BusinessAdministrationPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Unipi)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,12 +139,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox infotext;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem goBackToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.PictureBox Unipi;
     }
 }

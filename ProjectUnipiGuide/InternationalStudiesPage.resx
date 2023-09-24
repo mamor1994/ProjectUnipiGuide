@@ -117,23 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\images\gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="des" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\des.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\images\image1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Unipic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Unipic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UnipiPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\UnipiPic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="theotokas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\theotokas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Το Τμήμα ΔΕΣ έχει ως αποστολή, σύμφωνα με το άρθρο 1 του ιδρυτικού του Προεδρικού Διατάγματος, να καλλιεργεί και να προάγει την επιστήμη με την ακαδημαϊκή και εφαρμοσμένη έρευνα και αναζήτηση και να παρέχει στους φοιτητές τα απαραίτητα εφόδια που εξασφαλίζουν την άρτια κατάρτισή τους για την επιστημονική και επαγγελματική τους σταδιοδρομία και εξέλιξη. 
+
+Ειδικότερα, το Τμήμα έχει ως αποστολή: «να συμβάλλει στη δημιουργία επιστημόνων υψηλού επιπέδου με άρτια επιστημονική κατάρτιση επί ευρωπαϊκών και διεθνών θεμάτων, ιδίως δε αυτών που έχουν σχέση με το ευρωπαϊκό και παγκόσμιο γίγνεσθαι, σε όλους τους τομείς, καθώς και τις σχέσεις της Ελλάδας με τρίτες χώρες και διεθνείς οργανισμούς, ώστε η ελληνική παρουσία και η συμμετοχή σε όλα τα επίπεδα της ευρωπαϊκής ενοποιητικής διαδικασίας και της διεθνούς κοινωνίας να είναι πλήρης, αποδοτική και αποτελεσματική και επωφελής για τα ελληνικά συμφέροντα».
+
+Οι πτυχιούχοι του Τμήματος ΔΕΣ θα μπορούν, μεταξύ άλλων, να στελεχώσουν τα όργανα της ΕΕ, της Διπλωματικής Υπηρεσίας του Υπουργείου Εξωτερικών και γενικότερα της Ελληνικής Δημόσιας Διοίκησης, των Ευρωπαϊκών και Διεθνών Οργανισμών, των επιχειρήσεων του ιδιωτικού τομέα εντός και εκτός Ελλάδος, καθώς και των Επιστημονικών Ινστιτούτων και Ερευνητικών Κέντρων της Ελλάδος και του εξωτερικού επί ευρωπαϊκών και διεθνών θεμάτων. 
+
+Στα πλαίσια αυτά, το Πανεπιστήμιο Πειραιώς φιλοδοξεί, με το νέο τμήμα Διεθνών και Ευρωπαϊκών Σπουδών, σε συνεργασία με το άριστο προσωπικό του, καθώς και με διακεκριμένους επιστήμονες και επιστημονικά ιδρύματα του εξωτερικού, να διακριθεί για τα υψηλά ποιοτικά κριτήρια των προγραμμάτων του και να προσφέρει στη χώρα μας εκλεκτούς επιστήμονες ικανούς να επικρατήσουν στη νέα παγκοσμιοποιημένη και άκρως ανταγωνιστική κοινωνία.</value>
   </data>
 </root>
