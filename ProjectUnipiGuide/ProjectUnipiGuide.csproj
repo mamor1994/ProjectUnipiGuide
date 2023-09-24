@@ -458,6 +458,12 @@
   <ItemGroup>
     <None Include="Resources\Unipic2.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="images\papei_adip_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\University-of-Piraeus-Logo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
