@@ -123,6 +123,16 @@ namespace ProjectUnipiGuide.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap papei_adip_2 {
             get {
                 object obj = ResourceManager.GetObject("papei_adip_2", resourceCulture);
@@ -256,6 +266,36 @@ namespace ProjectUnipiGuide.Properties {
         internal static System.Drawing.Bitmap αρχείο_λήψης {
             get {
                 object obj = ResourceManager.GetObject("αρχείο λήψης", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap αρχείο_λήψης__1_ {
+            get {
+                object obj = ResourceManager.GetObject("αρχείο λήψης (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap αρχείο_λήψης__2_ {
+            get {
+                object obj = ResourceManager.GetObject("αρχείο λήψης (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap αρχείο_λήψης1 {
+            get {
+                object obj = ResourceManager.GetObject("αρχείο λήψης1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

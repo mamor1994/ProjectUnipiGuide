@@ -500,6 +500,18 @@
   <ItemGroup>
     <None Include="images\graphics-hello-457644.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="images\αρχείο λήψης.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\αρχείο λήψης %281%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\αρχείο λήψης %282%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\images.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
