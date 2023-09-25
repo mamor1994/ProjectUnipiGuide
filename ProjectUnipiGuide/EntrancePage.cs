@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AxWMPLib;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,6 +31,7 @@ namespace ProjectUnipiGuide
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+
         }
 
         private void Episkepths_Click(object sender, EventArgs e)
@@ -51,6 +53,11 @@ namespace ProjectUnipiGuide
         private void EntrancePage_Load(object sender, EventArgs e)
         {
             player.Play();
+        }
+
+        private void EntrancePage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            player.Stop();
         }
     }
 }

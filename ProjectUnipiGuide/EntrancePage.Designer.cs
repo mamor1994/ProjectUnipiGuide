@@ -129,6 +129,7 @@ namespace ProjectUnipiGuide
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -143,6 +144,7 @@ namespace ProjectUnipiGuide
             this.Name = "EntrancePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EntrancePage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EntrancePage_FormClosing);
             this.Load += new System.EventHandler(this.EntrancePage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

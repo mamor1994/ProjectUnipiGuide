@@ -15,7 +15,7 @@ namespace ProjectUnipiGuide
         public HelloPage()
         {
             InitializeComponent();
-            timer1.Interval = 7000;
+            timer1.Interval = 4000;
             timer1.Start();
         }
 
