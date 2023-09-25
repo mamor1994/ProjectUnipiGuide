@@ -68,7 +68,7 @@ namespace ProjectUnipiGuide
                     command.Parameters.AddWithValue("@password", password);
                     SQLiteDataReader reader = command.ExecuteReader();
                     if (reader.Read())
-                    {
+                    {                        
                         string message = "Συνδέθηκες επιτυχώς!";
                         MessageBox.Show(message, "Login Successful", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         MainPage form = new MainPage();
