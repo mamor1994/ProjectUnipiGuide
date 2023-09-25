@@ -26,11 +26,7 @@ namespace ProjectUnipiGuide
             secondForm.btnKathigites.Visible = true;
             secondForm.btnOmotimoi.Visible = false;
             secondForm.lbMelhDep.Text = "ΜΕΛΗ ΔΕΠ";
-            //secondForm.btnLoadAnaplhrwtes.Hide();
-            //secondForm.btnEpikouroi.Hide();
-            //secondForm.btnKathigites.Hide();
-            //secondForm.btnOmotimoi.Visible = true;
-            //secondForm.lbMelhDep.Text = "ΟΜΟΤΙΜΟΙ ΚΑΘΗΓΗΤΕΣ";
+
             secondForm.Show();
             this.Hide();
         }

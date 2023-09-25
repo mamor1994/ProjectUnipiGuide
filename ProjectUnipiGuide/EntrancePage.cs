@@ -1,4 +1,5 @@
 ﻿using AxWMPLib;
+using ProjectUnipiGuide.DAL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -36,14 +37,17 @@ namespace ProjectUnipiGuide
 
         private void Episkepths_Click(object sender, EventArgs e)
         {
+            UserState.IsGuest = true;
+            MainPage form = new MainPage();
+            form.btnCalendar.Visible = false;
             player.Stop();
-            MainPage newForm = new MainPage();
-            newForm.Show();
-            this.Hide();
+            form.Show();
+            this.Hide(); 
         }
 
         private void EggegrammenosXrhsths_Click(object sender, EventArgs e)
         {
+            UserState.IsGuest = false;
             player.Stop();
             LoginPage newForm = new LoginPage();
             newForm.Show();

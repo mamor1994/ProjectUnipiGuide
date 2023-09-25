@@ -31,7 +31,9 @@ namespace ProjectUnipiGuide
 
         private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            UserState.IsGuest = true;
             MainPage form = new MainPage();
+            form.btnCalendar.Visible = false;
             form.Show();
             this.Hide();
         }

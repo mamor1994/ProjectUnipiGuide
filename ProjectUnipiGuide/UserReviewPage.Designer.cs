@@ -54,7 +54,7 @@
             this.flowLayoutPanel1.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.flowLayoutPanel1.Location = new System.Drawing.Point(1, 36);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(474, 530);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(474, 525);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -66,7 +66,7 @@
             this.panel1.Controls.Add(this.pb_icon);
             this.panel1.Location = new System.Drawing.Point(481, 159);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(440, 407);
+            this.panel1.Size = new System.Drawing.Size(440, 402);
             this.panel1.TabIndex = 1;
             // 
             // lbl_subtitle
@@ -146,7 +146,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(918, 30);
+            this.menuStrip2.Size = new System.Drawing.Size(918, 28);
             this.menuStrip2.TabIndex = 6;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -156,7 +156,7 @@
             this.goBackToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 26);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // goBackToolStripMenuItem
@@ -178,7 +178,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -216,12 +216,12 @@
         private System.Windows.Forms.Label lbl_subtitle;
         private System.Windows.Forms.Label lbl_title;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem goBackToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        public System.Windows.Forms.Button btnAdd;
+        public System.Windows.Forms.Button btnRefresh;
     }
 }

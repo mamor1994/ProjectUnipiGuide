@@ -13,9 +13,10 @@ namespace ProjectUnipiGuide
 {
     public partial class MainPage : Form
     {
+
         public MainPage()
         {
-            InitializeComponent();            
+            InitializeComponent(); 
         }
 
         private void GenInfo_Click(object sender, EventArgs e)
@@ -65,13 +66,6 @@ namespace ProjectUnipiGuide
             this.Hide();
         }
 
-        private void btnReviews_Click(object sender, EventArgs e)
-        {
-            UserReviewPage form = new UserReviewPage();
-            form.Show();
-            this.Hide();
-        }
-
         private void btnCalendar_Click(object sender, EventArgs e)
         {
             CalendarPage form = new CalendarPage();
@@ -84,6 +78,24 @@ namespace ProjectUnipiGuide
             PhotosPage form = new PhotosPage();
             form.Show();
             this.Hide();
+        }
+
+        private void btnReviews_Click(object sender, EventArgs e)
+        {
+            UserReviewPage form = new UserReviewPage();
+            form.Show();
+            this.Hide();
+
+            if (UserState.IsGuest)
+            {
+                form.btnAdd.Hide();
+                form.btnRefresh.Hide();
+            }
+            else
+            {
+                form.btnAdd.Show();
+                form.btnRefresh.Show();
+            }
         }
     }
 }

@@ -40,9 +40,9 @@
             // pb_icon
             // 
             this.pb_icon.BackColor = System.Drawing.Color.Orange;
-            this.pb_icon.Location = new System.Drawing.Point(19, 24);
+            this.pb_icon.Location = new System.Drawing.Point(28, 24);
             this.pb_icon.Name = "pb_icon";
-            this.pb_icon.Size = new System.Drawing.Size(84, 66);
+            this.pb_icon.Size = new System.Drawing.Size(71, 55);
             this.pb_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_icon.TabIndex = 0;
             this.pb_icon.TabStop = false;
@@ -54,7 +54,7 @@
             this.panel1.Controls.Add(this.pb_icon);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(136, 150);
+            this.panel1.Size = new System.Drawing.Size(136, 110);
             this.panel1.TabIndex = 1;
             // 
             // panel2
@@ -69,7 +69,7 @@
             // 
             this.lbl_title.AutoSize = true;
             this.lbl_title.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_title.Location = new System.Drawing.Point(180, 15);
+            this.lbl_title.Location = new System.Drawing.Point(180, 13);
             this.lbl_title.Name = "lbl_title";
             this.lbl_title.Size = new System.Drawing.Size(44, 31);
             this.lbl_title.TabIndex = 2;
@@ -79,7 +79,7 @@
             // 
             this.lbl_subtitle.AutoSize = true;
             this.lbl_subtitle.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_subtitle.Location = new System.Drawing.Point(180, 79);
+            this.lbl_subtitle.Location = new System.Drawing.Point(180, 59);
             this.lbl_subtitle.Name = "lbl_subtitle";
             this.lbl_subtitle.Size = new System.Drawing.Size(63, 31);
             this.lbl_subtitle.TabIndex = 3;
@@ -93,7 +93,7 @@
             this.Controls.Add(this.lbl_title);
             this.Controls.Add(this.panel1);
             this.Name = "UserControl1";
-            this.Size = new System.Drawing.Size(463, 118);
+            this.Size = new System.Drawing.Size(432, 97);
             ((System.ComponentModel.ISupportInitialize)(this.pb_icon)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
