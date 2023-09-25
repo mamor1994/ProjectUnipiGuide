@@ -47,7 +47,7 @@ namespace ProjectUnipiGuide
             this.Episkepths.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Episkepths.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.Episkepths.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Episkepths.Font = new System.Drawing.Font("Microsoft Uighur", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Episkepths.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Episkepths.ForeColor = System.Drawing.Color.White;
             this.Episkepths.Location = new System.Drawing.Point(398, 111);
             this.Episkepths.Name = "Episkepths";
@@ -64,7 +64,7 @@ namespace ProjectUnipiGuide
             this.EggegrammenosXrhsths.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.EggegrammenosXrhsths.Cursor = System.Windows.Forms.Cursors.Hand;
             this.EggegrammenosXrhsths.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.EggegrammenosXrhsths.Font = new System.Drawing.Font("Microsoft Uighur", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EggegrammenosXrhsths.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EggegrammenosXrhsths.ForeColor = System.Drawing.Color.White;
             this.EggegrammenosXrhsths.Location = new System.Drawing.Point(398, 259);
             this.EggegrammenosXrhsths.Name = "EggegrammenosXrhsths";
@@ -116,7 +116,7 @@ namespace ProjectUnipiGuide
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label1.Font = new System.Drawing.Font("Microsoft Uighur", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 41);
             this.label1.Name = "label1";
@@ -124,6 +124,7 @@ namespace ProjectUnipiGuide
             this.label1.TabIndex = 6;
             this.label1.Text = "Καλωσήρθες στο οδηγό για το Πανεπιστήμιο Πειραιώς";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // EntrancePage
             // 
