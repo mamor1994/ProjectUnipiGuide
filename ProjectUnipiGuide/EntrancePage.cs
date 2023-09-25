@@ -15,7 +15,7 @@ namespace ProjectUnipiGuide
 {
     public partial class EntrancePage : Form
     {
-        SoundPlayer player = new SoundPlayer("sounds/mysound.wav");
+        SoundPlayer player = new SoundPlayer("sounds/upliftingsound.wav");
 
         public EntrancePage()
         {
@@ -58,6 +58,11 @@ namespace ProjectUnipiGuide
         private void EntrancePage_FormClosing(object sender, FormClosingEventArgs e)
         {
             player.Stop();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
