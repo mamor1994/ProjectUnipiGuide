@@ -15,7 +15,7 @@ namespace ProjectUnipiGuide
     {
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         private void GenInfo_Click(object sender, EventArgs e)

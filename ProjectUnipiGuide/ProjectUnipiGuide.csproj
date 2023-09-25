@@ -518,6 +518,24 @@
   <ItemGroup>
     <None Include="Resources\photoalbum.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AbstractPic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AbstractPic2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AbstractPic3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AbstractPic2.5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\informapic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informapic2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

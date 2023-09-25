@@ -197,6 +197,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GrayText;
+            this.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.AbstractPic3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(791, 526);
             this.Controls.Add(this.btnPhotos);
