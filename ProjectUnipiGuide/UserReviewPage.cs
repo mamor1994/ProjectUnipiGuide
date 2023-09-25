@@ -106,7 +106,7 @@ namespace ProjectUnipiGuide.DAL
 
         private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            EntrancePage form = new EntrancePage();
+            MainPage form = new MainPage();
             form.Show();
             this.Hide();
         }
