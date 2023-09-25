@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectUnipiGuide.DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -53,6 +54,34 @@ namespace ProjectUnipiGuide
         private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
             EntrancePage form = new EntrancePage();
+            form.Show();
+            this.Hide();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            ByeByePage form = new ByeByePage();
+            form.Show();
+            this.Hide();
+        }
+
+        private void btnReviews_Click(object sender, EventArgs e)
+        {
+            UserReviewPage form = new UserReviewPage();
+            form.Show();
+            this.Hide();
+        }
+
+        private void btnCalendar_Click(object sender, EventArgs e)
+        {
+            CalendarPage form = new CalendarPage();
+            form.Show();
+            this.Hide();
+        }
+
+        private void btnPhotos_Click(object sender, EventArgs e)
+        {
+            PhotosPage form = new PhotosPage();
             form.Show();
             this.Hide();
         }

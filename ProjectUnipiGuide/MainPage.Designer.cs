@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.goBackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnPhotos = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnReviews = new System.Windows.Forms.Button();
+            this.btnCalendar = new System.Windows.Forms.Button();
             this.Services = new System.Windows.Forms.Button();
             this.Schools = new System.Windows.Forms.Button();
             this.GenInfo = new System.Windows.Forms.Button();
@@ -52,7 +52,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(791, 30);
+            this.menuStrip2.Size = new System.Drawing.Size(791, 28);
             this.menuStrip2.TabIndex = 8;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -62,70 +62,8 @@
             this.goBackToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 26);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.fileToolStripMenuItem.Text = "&File";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
-            this.aboutToolStripMenuItem.Text = "&About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.photoalbum;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button4.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.button4.Location = new System.Drawing.Point(406, 301);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(180, 181);
-            this.button4.TabIndex = 12;
-            this.button4.Text = "Άλμπουμ";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.αρχείο_λήψης1;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(592, 301);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(187, 181);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Έξοδος";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.αρχείο_λήψης__2_;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(216, 301);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(184, 181);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Κριτικές";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.images;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(12, 301);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(198, 181);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "Ημερολόγιο";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // goBackToolStripMenuItem
             // 
@@ -142,6 +80,72 @@
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenuItem.Text = "&About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // btnPhotos
+            // 
+            this.btnPhotos.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.photoalbum;
+            this.btnPhotos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnPhotos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.btnPhotos.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.btnPhotos.Location = new System.Drawing.Point(406, 301);
+            this.btnPhotos.Name = "btnPhotos";
+            this.btnPhotos.Size = new System.Drawing.Size(180, 181);
+            this.btnPhotos.TabIndex = 12;
+            this.btnPhotos.Text = "Άλμπουμ";
+            this.btnPhotos.UseVisualStyleBackColor = true;
+            this.btnPhotos.Click += new System.EventHandler(this.btnPhotos_Click);
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.αρχείο_λήψης1;
+            this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnExit.Location = new System.Drawing.Point(592, 301);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(187, 181);
+            this.btnExit.TabIndex = 11;
+            this.btnExit.Text = "Έξοδος";
+            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnReviews
+            // 
+            this.btnReviews.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.αρχείο_λήψης__2_;
+            this.btnReviews.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnReviews.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReviews.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.btnReviews.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnReviews.Location = new System.Drawing.Point(216, 301);
+            this.btnReviews.Name = "btnReviews";
+            this.btnReviews.Size = new System.Drawing.Size(184, 181);
+            this.btnReviews.TabIndex = 10;
+            this.btnReviews.Text = "Κριτικές";
+            this.btnReviews.UseVisualStyleBackColor = true;
+            this.btnReviews.Click += new System.EventHandler(this.btnReviews_Click);
+            // 
+            // btnCalendar
+            // 
+            this.btnCalendar.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.images;
+            this.btnCalendar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCalendar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
+            this.btnCalendar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCalendar.Location = new System.Drawing.Point(12, 301);
+            this.btnCalendar.Name = "btnCalendar";
+            this.btnCalendar.Size = new System.Drawing.Size(198, 181);
+            this.btnCalendar.TabIndex = 9;
+            this.btnCalendar.Text = "Ημερολόγιο";
+            this.btnCalendar.UseVisualStyleBackColor = true;
+            this.btnCalendar.Click += new System.EventHandler(this.btnCalendar_Click);
             // 
             // Services
             // 
@@ -195,10 +199,10 @@
             this.BackColor = System.Drawing.SystemColors.GrayText;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(791, 526);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPhotos);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnReviews);
+            this.Controls.Add(this.btnCalendar);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.Services);
             this.Controls.Add(this.Schools);
@@ -225,9 +229,9 @@
         private System.Windows.Forms.ToolStripMenuItem goBackToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnCalendar;
+        private System.Windows.Forms.Button btnReviews;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button btnPhotos;
     }
 }
