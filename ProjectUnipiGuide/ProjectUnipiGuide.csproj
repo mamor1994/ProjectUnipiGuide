@@ -99,6 +99,7 @@
     <Compile Include="BusinessAdministrationPage.Designer.cs">
       <DependentUpon>BusinessAdministrationPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserState.cs" />
     <Compile Include="DAL\Connection.cs" />
     <Compile Include="DAL\ClassDAL.cs" />
     <Compile Include="AddReviewPage.cs">

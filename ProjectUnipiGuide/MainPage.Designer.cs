@@ -52,7 +52,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(791, 28);
+            this.menuStrip2.Size = new System.Drawing.Size(807, 28);
             this.menuStrip2.TabIndex = 8;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -94,9 +94,9 @@
             this.btnPhotos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPhotos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.btnPhotos.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.btnPhotos.Location = new System.Drawing.Point(406, 301);
+            this.btnPhotos.Location = new System.Drawing.Point(436, 289);
             this.btnPhotos.Name = "btnPhotos";
-            this.btnPhotos.Size = new System.Drawing.Size(180, 181);
+            this.btnPhotos.Size = new System.Drawing.Size(236, 181);
             this.btnPhotos.TabIndex = 12;
             this.btnPhotos.Text = "Άλμπουμ";
             this.btnPhotos.UseVisualStyleBackColor = true;
@@ -109,9 +109,9 @@
             this.btnExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnExit.Location = new System.Drawing.Point(592, 301);
+            this.btnExit.Location = new System.Drawing.Point(304, 491);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(187, 181);
+            this.btnExit.Size = new System.Drawing.Size(236, 181);
             this.btnExit.TabIndex = 11;
             this.btnExit.Text = "Έξοδος";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -124,9 +124,9 @@
             this.btnReviews.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnReviews.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.btnReviews.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnReviews.Location = new System.Drawing.Point(216, 301);
+            this.btnReviews.Location = new System.Drawing.Point(126, 289);
             this.btnReviews.Name = "btnReviews";
-            this.btnReviews.Size = new System.Drawing.Size(184, 181);
+            this.btnReviews.Size = new System.Drawing.Size(245, 181);
             this.btnReviews.TabIndex = 10;
             this.btnReviews.Text = "Κριτικές";
             this.btnReviews.UseVisualStyleBackColor = true;
@@ -139,9 +139,9 @@
             this.btnCalendar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCalendar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.btnCalendar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCalendar.Location = new System.Drawing.Point(12, 301);
+            this.btnCalendar.Location = new System.Drawing.Point(21, 491);
             this.btnCalendar.Name = "btnCalendar";
-            this.btnCalendar.Size = new System.Drawing.Size(198, 181);
+            this.btnCalendar.Size = new System.Drawing.Size(236, 181);
             this.btnCalendar.TabIndex = 9;
             this.btnCalendar.Text = "Ημερολόγιο";
             this.btnCalendar.UseVisualStyleBackColor = true;
@@ -199,7 +199,7 @@
             this.BackColor = System.Drawing.SystemColors.GrayText;
             this.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.AbstractPic3;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(791, 526);
+            this.ClientSize = new System.Drawing.Size(807, 713);
             this.Controls.Add(this.btnPhotos);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReviews);
@@ -230,9 +230,9 @@
         private System.Windows.Forms.ToolStripMenuItem goBackToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
-        private System.Windows.Forms.Button btnCalendar;
         private System.Windows.Forms.Button btnReviews;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnPhotos;
+        public System.Windows.Forms.Button btnCalendar;
     }
 }
