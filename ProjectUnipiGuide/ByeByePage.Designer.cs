@@ -88,7 +88,7 @@ namespace ProjectUnipiGuide
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::ProjectUnipiGuide.Properties.Resources.gif;
+//            this.pictureBox1.Image = global::ProjectUnipiGuide.Properties.Resources.gif;
             this.pictureBox1.Location = new System.Drawing.Point(126, 55);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(346, 296);

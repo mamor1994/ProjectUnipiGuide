@@ -16,8 +16,7 @@ namespace ProjectUnipiGuide
 {
     public partial class EntrancePage : Form
     {
-        // SoundPlayer player = new SoundPlayer("sounds/upliftingsound.wav");
-        SoundPlayer player = new SoundPlayer(Properties.Resources.upliftingsound);
+        SoundPlayer player = new SoundPlayer("../../../sounds/upliftingsound.wav");
 
         public EntrancePage()
         {
