@@ -97,5 +97,10 @@ namespace ProjectUnipiGuide
                 form.btnRefresh.Show();
             }
         }
+
+        private void MainPage_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

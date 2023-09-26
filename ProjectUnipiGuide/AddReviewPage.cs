@@ -20,6 +20,9 @@ namespace ProjectUnipiGuide
 
         private void btn_upload_Click(object sender, EventArgs e)
         {
+            string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string emojiDirectory = System.IO.Path.Combine(appDirectory, "emoji");
+
             OpenFileDialog opendlg = new OpenFileDialog();
             if(opendlg.ShowDialog() == DialogResult.OK)
             {

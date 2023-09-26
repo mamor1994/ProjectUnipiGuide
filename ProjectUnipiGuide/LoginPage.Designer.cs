@@ -54,7 +54,7 @@ namespace ProjectUnipiGuide
             // 
             // LoginBTN
             // 
-            this.LoginBTN.BackColor = System.Drawing.Color.Green;
+            this.LoginBTN.BackColor = System.Drawing.Color.DodgerBlue;
             this.LoginBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.LoginBTN.Location = new System.Drawing.Point(22, 303);
             this.LoginBTN.Name = "LoginBTN";
@@ -69,15 +69,16 @@ namespace ProjectUnipiGuide
             this.passwordBox.BackColor = System.Drawing.Color.White;
             this.passwordBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.passwordBox.Font = new System.Drawing.Font("Segoe Script", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.passwordBox.Location = new System.Drawing.Point(106, 200);
+            this.passwordBox.Location = new System.Drawing.Point(105, 200);
             this.passwordBox.Multiline = true;
             this.passwordBox.Name = "passwordBox";
+            this.passwordBox.PasswordChar = '*';
             this.passwordBox.Size = new System.Drawing.Size(418, 59);
             this.passwordBox.TabIndex = 3;
             // 
             // ClearBTN
             // 
-            this.ClearBTN.BackColor = System.Drawing.Color.Peru;
+            this.ClearBTN.BackColor = System.Drawing.Color.IndianRed;
             this.ClearBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.ClearBTN.Location = new System.Drawing.Point(313, 303);
             this.ClearBTN.Name = "ClearBTN";
@@ -136,6 +137,8 @@ namespace ProjectUnipiGuide
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.AbstractPic2;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.emailBox);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
@@ -175,9 +178,9 @@ namespace ProjectUnipiGuide
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe Script", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label2.Location = new System.Drawing.Point(100, 166);
+            this.label2.Location = new System.Drawing.Point(101, 167);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 30);
+            this.label2.Size = new System.Drawing.Size(90, 30);
             this.label2.TabIndex = 13;
             this.label2.Text = "Κωδικός";
             // 
@@ -231,6 +234,7 @@ namespace ProjectUnipiGuide
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::ProjectUnipiGuide.Properties.Resources.AbstractPic;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(806, 607);
             this.Controls.Add(this.panel1);

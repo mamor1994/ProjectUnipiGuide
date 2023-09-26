@@ -179,5 +179,12 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Close();
         }
+
+        private void DigitalSystems_CheckedChanged(object sender, EventArgs e)
+        {
+            PsSOverviewPage form = new PsSOverviewPage();
+            form.Show();
+            this.Close();
+        }
     }
 }
