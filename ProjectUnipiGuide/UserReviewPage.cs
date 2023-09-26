@@ -35,7 +35,7 @@ namespace ProjectUnipiGuide.DAL
                         foreach (DataRow row in dt.Rows)
                         {
                             listItems[i] = new UserControl1();
-
+                            listItems[i].Width = flowLayoutPanel1.Width;
                             MemoryStream ms = new MemoryStream((byte[])row["Image"]);
                             listItems[i].Icon = new Bitmap(ms);
 
