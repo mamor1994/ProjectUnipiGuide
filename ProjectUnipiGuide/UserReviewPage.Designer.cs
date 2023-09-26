@@ -49,12 +49,14 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.flowLayoutPanel1.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.flowLayoutPanel1.Font = new System.Drawing.Font("Microsoft Uighur", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.flowLayoutPanel1.Location = new System.Drawing.Point(1, 36);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(474, 525);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(509, 525);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -64,28 +66,28 @@
             this.panel1.Controls.Add(this.lbl_title);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.pb_icon);
-            this.panel1.Location = new System.Drawing.Point(481, 159);
+            this.panel1.Location = new System.Drawing.Point(516, 159);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(440, 402);
+            this.panel1.Size = new System.Drawing.Size(521, 402);
             this.panel1.TabIndex = 1;
             // 
             // lbl_subtitle
             // 
             this.lbl_subtitle.AutoSize = true;
-            this.lbl_subtitle.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_subtitle.Location = new System.Drawing.Point(102, 281);
+            this.lbl_subtitle.Font = new System.Drawing.Font("Microsoft Uighur", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_subtitle.Location = new System.Drawing.Point(70, 274);
             this.lbl_subtitle.Name = "lbl_subtitle";
-            this.lbl_subtitle.Size = new System.Drawing.Size(52, 31);
+            this.lbl_subtitle.Size = new System.Drawing.Size(38, 24);
             this.lbl_subtitle.TabIndex = 3;
             this.lbl_subtitle.Text = "label2";
             // 
             // lbl_title
             // 
             this.lbl_title.AutoSize = true;
-            this.lbl_title.Font = new System.Drawing.Font("Microsoft Uighur", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_title.Location = new System.Drawing.Point(102, 213);
+            this.lbl_title.Font = new System.Drawing.Font("Microsoft Uighur", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_title.Location = new System.Drawing.Point(70, 213);
             this.lbl_title.Name = "lbl_title";
-            this.lbl_title.Size = new System.Drawing.Size(51, 31);
+            this.lbl_title.Size = new System.Drawing.Size(37, 24);
             this.lbl_title.TabIndex = 2;
             this.lbl_title.Text = "label1";
             // 
@@ -94,7 +96,7 @@
             this.btnClose.BackColor = System.Drawing.Color.Red;
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(184, 330);
+            this.btnClose.Location = new System.Drawing.Point(218, 324);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(102, 52);
             this.btnClose.TabIndex = 1;
@@ -105,7 +107,7 @@
             // pb_icon
             // 
             this.pb_icon.BackColor = System.Drawing.SystemColors.Window;
-            this.pb_icon.Location = new System.Drawing.Point(169, 35);
+            this.pb_icon.Location = new System.Drawing.Point(203, 42);
             this.pb_icon.Name = "pb_icon";
             this.pb_icon.Size = new System.Drawing.Size(117, 109);
             this.pb_icon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -117,7 +119,7 @@
             this.btnAdd.BackColor = System.Drawing.Color.Lime;
             this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(728, 69);
+            this.btnAdd.Location = new System.Drawing.Point(795, 69);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(139, 49);
             this.btnAdd.TabIndex = 4;
@@ -130,7 +132,7 @@
             this.btnRefresh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnRefresh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRefresh.Font = new System.Drawing.Font("Microsoft Uighur", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefresh.Location = new System.Drawing.Point(546, 69);
+            this.btnRefresh.Location = new System.Drawing.Point(588, 69);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(128, 49);
             this.btnRefresh.TabIndex = 5;
@@ -146,7 +148,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(918, 28);
+            this.menuStrip2.Size = new System.Drawing.Size(1037, 28);
             this.menuStrip2.TabIndex = 6;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -156,7 +158,7 @@
             this.goBackToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 26);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // goBackToolStripMenuItem
@@ -178,7 +180,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 26);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -187,7 +189,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(918, 563);
+            this.ClientSize = new System.Drawing.Size(1037, 563);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnRefresh);
