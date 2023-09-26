@@ -19,7 +19,7 @@ namespace ProjectUnipiGuide
     public partial class LoginPage : Form
     {
 
-        private readonly string connectionString = ConnectionString.Get().ConnectionStrings.DatabaseConnection;
+        private readonly string connectionString = AppSettingsHelper.Get().ConnectionStrings.DatabaseConnection;
         SQLiteConnection connection;
 
         public LoginPage()

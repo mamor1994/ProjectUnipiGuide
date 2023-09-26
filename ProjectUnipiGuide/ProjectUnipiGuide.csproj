@@ -102,7 +102,7 @@
     <Compile Include="BusinessAdministrationPage.Designer.cs">
       <DependentUpon>BusinessAdministrationPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="JsonHelpers\ConnectionString.cs" />
+    <Compile Include="JsonHelpers\AppSettingsHelper.cs" />
     <Compile Include="Models\ApplicationSettings.cs" />
     <Compile Include="Models\Connectionstrings.cs" />
     <Compile Include="UserState.cs" />

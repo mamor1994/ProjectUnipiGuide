@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectUnipiGuide.JsonHelpers;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,8 +15,7 @@ namespace ProjectUnipiGuide
     public partial class UserControlDays : UserControl
     {
         public static string static_day;
-        String connectionString = "Data source=calendar.db;Version=3;";
-        //private readonly EventPage currentEventPage = new EventPage(); 
+        private readonly string connectionString = AppSettingsHelper.Get().ConnectionStrings.CalendarConnection;
 
 
         public UserControlDays()
@@ -35,9 +35,6 @@ namespace ProjectUnipiGuide
 
         private void UserControlDays_Click(object sender, EventArgs e)
         {
-            //static_day = lbdays.Text;
-            //timer1.Start();
-            //currentEventPage.ShowDialog();
             if (lbevent.Text.Trim() == "")
             {
                 string message = "Δεν υπάρχει διαθέσιμο event.";

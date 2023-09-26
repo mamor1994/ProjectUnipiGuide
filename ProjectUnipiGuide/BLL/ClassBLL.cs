@@ -36,7 +36,7 @@ namespace ProjectUnipiGuide.BLL
             }
             catch(Exception e)
             {
-                DialogResult reuslt = MessageBox.Show(e.Message.ToString());
+                DialogResult result = MessageBox.Show(e.Message.ToString());
                 return null;
             }
         }
