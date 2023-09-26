@@ -35,6 +35,7 @@ namespace ProjectUnipiGuide
             MainPage form = new MainPage();
             form.Show();
             this.Hide();
+            timer1.Stop();
             if (UserState.IsGuest == true)
             {
                 form.btnCalendar.Visible = false;
