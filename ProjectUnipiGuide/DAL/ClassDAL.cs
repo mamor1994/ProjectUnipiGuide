@@ -8,25 +8,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
-
+using ProjectUnipiGuide.JsonHelpers;
 
 namespace ProjectUnipiGuide.DAL
 {
     class ClassDAL
     {
+        private readonly string connectionString = AppSettingsHelper.Get().ConnectionStrings.DbReviewsConnection;
 
         public bool AddItemsToTable(Image img, string title, string subtitle)
         {
-            Connection con = new Connection();
-            if (ConnectionState.Closed == con.connect.State)
+            var connection = Connection.Connect(connectionString);
+            if (ConnectionState.Closed == connection.State)
             {
-                con.connect.Open();
+                connection.Open();
             }
             String query = "Insert into dbReviewsTable(Title, SubTitle, Image)values(@Title,@SubTitle,@Image)";
 
             try
             {
-                using (SQLiteCommand cmd = new SQLiteCommand(query, con.connect))
+                using (SQLiteCommand cmd = new SQLiteCommand(query, connection))
                 {
                     cmd.Parameters.AddWithValue("@Title", title.Trim());
                     cmd.Parameters.AddWithValue("SubTitle", subtitle.Trim());
@@ -49,13 +50,13 @@ namespace ProjectUnipiGuide.DAL
 
         public DataTable ReadItemsTable()
         {
-            Connection con = new Connection(); 
-            if (ConnectionState.Closed == con.connect.State)
+            var connection = Connection.Connect(connectionString);
+            if (ConnectionState.Closed == connection.State)
             {
-                con.connect.Open() ;
+                connection.Open() ;
             }
             string query = "SELECT * FROM dbReviewsTable";
-            SQLiteCommand cmd = new SQLiteCommand(query, con.connect);
+            SQLiteCommand cmd = new SQLiteCommand(query, connection);
             try
             {
                 using (SQLiteDataAdapter sda = new SQLiteDataAdapter(cmd))

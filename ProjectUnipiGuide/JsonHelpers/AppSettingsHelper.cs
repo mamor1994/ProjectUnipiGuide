@@ -7,11 +7,11 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
-using static ProjectUnipiGuide.Models.Aplication;
+
 
 namespace ProjectUnipiGuide.JsonHelpers
 {
-    internal static class ConnectionString
+    internal static class AppSettingsHelper
     {
         public static ApplicationSettings Get()
         {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectUnipiGuide.JsonHelpers;
+using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Linq;
@@ -8,8 +9,12 @@ using System.Threading.Tasks;
 
 namespace ProjectUnipiGuide.DAL
 {
-    class Connection
+    static class Connection
     {
-        public SQLiteConnection connect = new SQLiteConnection("Data Source = dbReviews.db;Version=3;");
+       
+        public static SQLiteConnection Connect(string connectionString)
+        {
+            return new SQLiteConnection(connectionString);
+        }
     }
 }
