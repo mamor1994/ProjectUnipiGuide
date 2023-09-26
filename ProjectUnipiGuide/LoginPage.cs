@@ -1,9 +1,13 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using ProjectUnipiGuide.JsonHelpers;
+using ProjectUnipiGuide.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +19,7 @@ namespace ProjectUnipiGuide
     public partial class LoginPage : Form
     {
 
-        String connectionString = "Data source=database.db;Version=3;";
+        private readonly string connectionString = ConnectionString.Get().ConnectionStrings.DatabaseConnection;
         SQLiteConnection connection;
 
         public LoginPage()

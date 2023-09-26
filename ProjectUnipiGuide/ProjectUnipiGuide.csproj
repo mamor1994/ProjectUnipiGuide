@@ -45,6 +45,9 @@
     <Reference Include="Microsoft.Data.Sqlite, Version=7.0.11.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Data.Sqlite.Core.7.0.11\lib\netstandard2.0\Microsoft.Data.Sqlite.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="SQLitePCLRaw.core, Version=2.1.4.1835, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
       <HintPath>..\packages\SQLitePCLRaw.core.2.1.4\lib\netstandard2.0\SQLitePCLRaw.core.dll</HintPath>
     </Reference>
@@ -99,6 +102,9 @@
     <Compile Include="BusinessAdministrationPage.Designer.cs">
       <DependentUpon>BusinessAdministrationPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="JsonHelpers\ConnectionString.cs" />
+    <Compile Include="Models\ApplicationSettings.cs" />
+    <Compile Include="Models\Connectionstrings.cs" />
     <Compile Include="UserState.cs" />
     <Compile Include="DAL\Connection.cs" />
     <Compile Include="DAL\ClassDAL.cs" />
@@ -408,6 +414,9 @@
     <EmbeddedResource Include="UserControlDays.resx">
       <DependentUpon>UserControlDays.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -536,6 +545,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Informapic2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sounds\upliftingsound.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

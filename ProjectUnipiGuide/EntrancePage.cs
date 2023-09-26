@@ -16,11 +16,13 @@ namespace ProjectUnipiGuide
 {
     public partial class EntrancePage : Form
     {
-        SoundPlayer player = new SoundPlayer("sounds/upliftingsound.wav");
+        // SoundPlayer player = new SoundPlayer("sounds/upliftingsound.wav");
+        SoundPlayer player = new SoundPlayer(Properties.Resources.upliftingsound);
 
         public EntrancePage()
         {
             InitializeComponent();
+            //var path = Properties.Resources.upliftingsound.;
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
