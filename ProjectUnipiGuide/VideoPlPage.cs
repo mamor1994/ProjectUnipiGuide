@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,8 +23,11 @@ namespace ProjectUnipiGuide
 
         private void VideoPlPage_Load(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1.URL = "media/csunipi.mp4";
-            axWindowsMediaPlayer1.uiMode = "none";
+            var parent = Directory.GetCurrentDirectory();
+            var mp4 = Path.Combine(parent, "..", "..", "..", "media", "csunipi.mp4");
+            
+            axWindowsMediaPlayer1.URL = Path.GetFullPath(mp4); // Convert to absolute path
+            axWindowsMediaPlayer1.uiMode = "none";            
         }
 
         private void axWindowsMediaPlayer1_ClickEvent(object sender, _WMPOCXEvents_ClickEvent e)
@@ -45,11 +49,12 @@ namespace ProjectUnipiGuide
             PlMenuPage form = new PlMenuPage();
             form.Show();
             this.Hide();
-            axWindowsMediaPlayer1.Ctlcontrols.pause();
+            axWindowsMediaPlayer1.Dispose();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            axWindowsMediaPlayer1?.Dispose();
             Application.Exit();
         }
 
@@ -57,6 +62,12 @@ namespace ProjectUnipiGuide
         {
             string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς ο οποίος δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void VideoPlPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            axWindowsMediaPlayer1?.Dispose();
+            Application.Exit();
         }
     }
 }
