@@ -27,6 +27,7 @@ namespace ProjectUnipiGuide
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            timer1.Dispose();
             Application.Exit();
         }
 
@@ -46,6 +47,7 @@ namespace ProjectUnipiGuide
 
         private void HelloPage_FormClosing(object sender, FormClosingEventArgs e)
         {
+            timer1.Dispose();
             Application.Exit();
         }
     }
