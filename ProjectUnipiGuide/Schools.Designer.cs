@@ -123,7 +123,7 @@
             this.DigitalSystems.AutoSize = true;
             this.DigitalSystems.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.DigitalSystems.ForeColor = System.Drawing.Color.Firebrick;
-            this.DigitalSystems.Location = new System.Drawing.Point(515, 348);
+            this.DigitalSystems.Location = new System.Drawing.Point(515, 346);
             this.DigitalSystems.Name = "DigitalSystems";
             this.DigitalSystems.Size = new System.Drawing.Size(229, 20);
             this.DigitalSystems.TabIndex = 5;
@@ -323,7 +323,6 @@
             this.Name = "Schools";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SchoolsPage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Schools_FormClosing);
             this.Load += new System.EventHandler(this.Schools_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();

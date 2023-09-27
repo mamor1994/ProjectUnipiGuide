@@ -121,7 +121,6 @@
             this.Name = "EconomicsPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EconomicsPage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EconomicsPage_FormClosing);
             this.Load += new System.EventHandler(this.EconomicsPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

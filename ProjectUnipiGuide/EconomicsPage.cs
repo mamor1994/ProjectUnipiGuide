@@ -49,10 +49,5 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
         }
-
-        private void EconomicsPage_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

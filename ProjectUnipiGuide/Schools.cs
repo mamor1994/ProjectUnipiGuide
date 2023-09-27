@@ -193,9 +193,8 @@ namespace ProjectUnipiGuide
             this.Close();
         }
 
-        private void Schools_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
+        
+
+        
     }
 }
