@@ -75,14 +75,11 @@ namespace ProjectUnipiGuide
 
         private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MainPage form = new MainPage();
+            Form form = (Form)this.Tag;
+            //Schools form = new Schools();
             form.Show();           
-            this.Close();
-        }
-
-        private void PsSOverviewPage_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
+            this.Hide();
+            //this.Close();
         }
     }
 }

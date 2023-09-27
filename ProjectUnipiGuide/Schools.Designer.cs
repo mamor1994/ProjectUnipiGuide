@@ -131,7 +131,7 @@
             this.DigitalSystems.Text = "Τμήμα Ψηφιακών Συστημάτων";
             this.DigitalSystems.UseVisualStyleBackColor = true;
             this.DigitalSystems.Visible = false;
-            this.DigitalSystems.CheckedChanged += new System.EventHandler(this.DigitalSystems_CheckedChanged);
+            this.DigitalSystems.CheckedChanged += this.DigitalSystems_CheckedChanged;
             // 
             // menuStrip2
             // 

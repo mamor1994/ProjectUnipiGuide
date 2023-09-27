@@ -118,10 +118,5 @@ namespace ProjectUnipiGuide.DAL
                 form.btnCalendar.Visible = true;
             }
         }
-
-        private void UserReviewPage_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

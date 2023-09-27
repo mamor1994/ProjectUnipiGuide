@@ -44,7 +44,14 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
             timer1.Stop();
-            synthesizer.Dispose();
+            if (UserState.IsGuest == true)
+            {
+                form.btnCalendar.Visible = false;
+            }
+            else
+            {
+                form.btnCalendar.Visible = true;
+            }
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)

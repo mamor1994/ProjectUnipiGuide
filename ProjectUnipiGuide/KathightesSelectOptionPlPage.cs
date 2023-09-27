@@ -61,10 +61,5 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
         }
-
-        private void KathightesSelectOptionPlPage_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

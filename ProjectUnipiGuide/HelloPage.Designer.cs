@@ -105,7 +105,6 @@
             this.Name = "HelloPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HelloPage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HelloPage_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

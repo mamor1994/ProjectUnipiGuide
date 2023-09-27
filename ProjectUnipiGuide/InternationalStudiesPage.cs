@@ -16,7 +16,6 @@ namespace ProjectUnipiGuide
         {
             InitializeComponent();
         }
-
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς ο οποίος δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";

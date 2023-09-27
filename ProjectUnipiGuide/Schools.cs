@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,24 +16,28 @@ namespace ProjectUnipiGuide
         public Schools()
         {
             InitializeComponent();
+            this.Activated += this.OnActivated; 
         }
 
         private void ComputerScience_Click(object sender, EventArgs e)
         {
-            ManagementStudies.Visible = true;
-            MaritimeStudies.Visible = true;
-            FinanceStudies.Visible = true;
-            ComputerScience.Visible = false;
-            Economics.Visible = false;
-            Management.Visible = false;
-            InternationalStudies.Visible = false;
-            TourismStudies.Visible = false;
-            Maritime.Visible = false;
-            IndustrialManagement.Visible = false;
-            Banking.Visible = false;
-            Statistics.Visible = false;
-            Informatics.Visible = true;
-            DigitalSystems.Visible = true;
+            this.SuspendLayout();
+            this.ManagementStudies.Visible = true;
+            this.MaritimeStudies.Visible = true;
+            this.FinanceStudies.Visible = true;
+            this.ComputerScience.Visible = false;
+            this.Economics.Visible = false;
+            this.Management.Visible = false;
+            this.InternationalStudies.Visible = false;
+            this.TourismStudies.Visible = false;
+            this.Maritime.Visible = false;
+            this.IndustrialManagement.Visible = false;
+            this.Banking.Visible = false;
+            this.Statistics.Visible = false;
+            this.Informatics.Visible = true;
+            this.DigitalSystems.Visible = true;
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         private void Informatics_CheckedChanged(object sender, EventArgs e)
@@ -71,25 +76,25 @@ namespace ProjectUnipiGuide
 
         private void Schools_Load(object sender, EventArgs e)
         {
-
+           // Debug.WriteLine("Loaded");
         }
 
         private void ManagementStudies_Click(object sender, EventArgs e)
         {
-            ManagementStudies.Visible = false;
-            MaritimeStudies.Visible = true;
-            FinanceStudies.Visible = true;
-            ComputerScience.Visible = true;
-            Economics.Visible = true;
-            Management.Visible = true;
-            InternationalStudies.Visible = true;
-            TourismStudies.Visible = true;
-            Maritime.Visible = false;
-            IndustrialManagement.Visible = false;
-            Banking.Visible = false;
-            Statistics.Visible = false;
-            Informatics.Visible = false;
-            DigitalSystems.Visible = false;
+            this.ManagementStudies.Visible = false;
+            this.MaritimeStudies.Visible = true;
+            this.FinanceStudies.Visible = true;
+            this.ComputerScience.Visible = true;
+            this.Economics.Visible = true;
+            this.Management.Visible = true;
+            this.InternationalStudies.Visible = true;
+            this.TourismStudies.Visible = true;
+            this.Maritime.Visible = false;
+            this.IndustrialManagement.Visible = false;
+            this.Banking.Visible = false;
+            this.Statistics.Visible = false;
+            this.Informatics.Visible = false;
+            this.DigitalSystems.Visible = false;
 
 
         }
@@ -103,38 +108,38 @@ namespace ProjectUnipiGuide
 
         private void MaritimeStudies_Click(object sender, EventArgs e)
         {
-            ManagementStudies.Visible = true;
-            MaritimeStudies.Visible = false;
-            FinanceStudies.Visible = true;
-            ComputerScience.Visible = true;
-            Economics.Visible = false;
-            Management.Visible = false;
-            InternationalStudies.Visible = false;
-            TourismStudies.Visible = false;
-            Maritime.Visible = true;
-            IndustrialManagement.Visible = true;
-            Banking.Visible = false;
-            Statistics.Visible = false;
-            Informatics.Visible = false;
-            DigitalSystems.Visible = false;
+            this.ManagementStudies.Visible = true;
+            this.MaritimeStudies.Visible = false;
+            this.FinanceStudies.Visible = true;
+            this.ComputerScience.Visible = true;
+            this.Economics.Visible = false;
+            this.Management.Visible = false;
+            this.InternationalStudies.Visible = false;
+            this.TourismStudies.Visible = false;
+            this.Maritime.Visible = true;
+            this.IndustrialManagement.Visible = true;
+            this.Banking.Visible = false;
+            this.Statistics.Visible = false;
+            this.Informatics.Visible = false;
+            this.DigitalSystems.Visible = false;
         }
 
         private void FinanceStudies_Click(object sender, EventArgs e)
         {
-            ManagementStudies.Visible = true;
-            MaritimeStudies.Visible = true;
-            FinanceStudies.Visible = false;
-            ComputerScience.Visible = true;
-            Economics.Visible = false;
-            Management.Visible = false;
-            InternationalStudies.Visible = false;
-            TourismStudies.Visible = false;
-            Maritime.Visible = false;
-            IndustrialManagement.Visible = false;
-            Banking.Visible = true;
-            Statistics.Visible = true;
-            Informatics.Visible = false;
-            DigitalSystems.Visible = false;
+            this.ManagementStudies.Visible = true;
+            this.MaritimeStudies.Visible = true;
+            this.FinanceStudies.Visible = false;
+            this.ComputerScience.Visible = true;
+            this.Economics.Visible = false;
+            this.Management.Visible = false;
+            this.InternationalStudies.Visible = false;
+            this.TourismStudies.Visible = false;
+            this.Maritime.Visible = false;
+            this.IndustrialManagement.Visible = false;
+            this.Banking.Visible = true;
+            this.Statistics.Visible = true;
+            this.Informatics.Visible = false;
+            this.DigitalSystems.Visible = false;
         }
 
         private void Management_CheckedChanged(object sender, EventArgs e)
@@ -188,13 +193,34 @@ namespace ProjectUnipiGuide
 
         private void DigitalSystems_CheckedChanged(object sender, EventArgs e)
         {
-            PsSOverviewPage form = new PsSOverviewPage();
-            form.Show();
-            this.Close();
+            RadioButton radiobutton = sender as RadioButton;
+            if(radiobutton.Checked == true)
+            {
+
+                PsSOverviewPage form = new PsSOverviewPage();
+                if (form != null)
+                {
+                    if(!DesignMode)
+                    {
+
+
+                    form.Tag = this;
+                    form.Show(this);
+                    //this.Close();
+                    //this.Dispose();
+                    }
+              }
+            }
+        
+        
+        
         }
 
-        
-
-        
+        private void OnActivated(object sender, EventArgs e)
+        {
+            this.ComputerScience.Visible = true;
+            this.Informatics.Visible = false;
+            this.DigitalSystems.Visible = false;
+        }
     }
 }
