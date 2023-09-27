@@ -63,6 +63,7 @@ namespace ProjectUnipiGuide
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            timer1.Dispose();
             Application.Exit();
         }
 
@@ -71,6 +72,7 @@ namespace ProjectUnipiGuide
             MainPage form = new MainPage();
             form.Show();
             this.Hide();
+            timer1.Start();
             if (UserState.IsGuest == true)
             {
                 form.btnCalendar.Visible = false;
@@ -79,6 +81,12 @@ namespace ProjectUnipiGuide
             {
                 form.btnCalendar.Visible = true;
             }
+        }
+
+        private void PhotosPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            timer1.Dispose();
+            Application.Exit();
         }
     }
 }

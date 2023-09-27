@@ -66,5 +66,10 @@ namespace ProjectUnipiGuide
 
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void BusinessAdministrationPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }   
 }

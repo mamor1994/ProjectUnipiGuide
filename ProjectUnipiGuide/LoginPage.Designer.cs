@@ -180,7 +180,7 @@ namespace ProjectUnipiGuide
             this.label2.Font = new System.Drawing.Font("Segoe Script", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label2.Location = new System.Drawing.Point(101, 167);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 30);
+            this.label2.Size = new System.Drawing.Size(91, 30);
             this.label2.TabIndex = 13;
             this.label2.Text = "Κωδικός";
             // 
@@ -245,6 +245,7 @@ namespace ProjectUnipiGuide
             this.Name = "LoginPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LoginPage_FormClosing);
             this.Load += new System.EventHandler(this.LoginPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

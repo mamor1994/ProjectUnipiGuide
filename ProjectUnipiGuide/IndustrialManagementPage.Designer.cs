@@ -64,7 +64,7 @@
             // 
             this.goBackToolStripMenuItem.Image = global::ProjectUnipiGuide.Properties.Resources.αρχείο_λήψης;
             this.goBackToolStripMenuItem.Name = "goBackToolStripMenuItem";
-            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.goBackToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.goBackToolStripMenuItem.Text = "Go Back";
             this.goBackToolStripMenuItem.Click += new System.EventHandler(this.goBackToolStripMenuItem_Click);
             // 
@@ -72,7 +72,7 @@
             // 
             this.exitToolStripMenuItem.Image = global::ProjectUnipiGuide.Properties.Resources.cancel;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -117,6 +117,7 @@
             this.Name = "IndustrialManagementPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IndustrialManagementPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.IndustrialManagementPage_FormClosing);
             this.Load += new System.EventHandler(this.IndustrialManagementPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

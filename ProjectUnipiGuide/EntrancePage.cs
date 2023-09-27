@@ -17,12 +17,10 @@ namespace ProjectUnipiGuide
     public partial class EntrancePage : Form
     {
         SoundPlayer player = new SoundPlayer("../../../sounds/upliftingsound.wav");
-        //SoundPlayer player = new SoundPlayer(Properties.Resources.upliftingsound);
 
         public EntrancePage()
         {
             InitializeComponent();
-            //var path = Properties.Resources.upliftingsound.;
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -33,8 +31,8 @@ namespace ProjectUnipiGuide
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            player.Dispose();
             Application.Exit();
-
         }
 
         private void Episkepths_Click(object sender, EventArgs e)
@@ -63,7 +61,8 @@ namespace ProjectUnipiGuide
 
         private void EntrancePage_FormClosing(object sender, FormClosingEventArgs e)
         {
-            player.Stop();
+            player.Dispose();
+            Application.Exit();
         }
 
         private void label1_Click(object sender, EventArgs e)

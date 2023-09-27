@@ -35,5 +35,10 @@ namespace ProjectUnipiGuide
 
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void BankingStudiesPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

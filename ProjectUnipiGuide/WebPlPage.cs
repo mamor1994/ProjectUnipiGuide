@@ -45,5 +45,10 @@ namespace ProjectUnipiGuide
         {
 
         }
+
+        private void WebPlPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

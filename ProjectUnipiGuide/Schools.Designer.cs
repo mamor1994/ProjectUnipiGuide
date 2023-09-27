@@ -323,6 +323,7 @@
             this.Name = "Schools";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SchoolsPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Schools_FormClosing);
             this.Load += new System.EventHandler(this.Schools_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();

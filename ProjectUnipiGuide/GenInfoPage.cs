@@ -57,5 +57,10 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
         }
+
+        private void GenInfoPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

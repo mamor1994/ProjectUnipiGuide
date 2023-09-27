@@ -110,6 +110,7 @@
             this.Name = "WebPlPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WebPlPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WebPlPage_FormClosing);
             this.Load += new System.EventHandler(this.WebPlPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

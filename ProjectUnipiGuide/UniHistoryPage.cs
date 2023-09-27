@@ -55,5 +55,10 @@ namespace ProjectUnipiGuide
         {
             
         }
+
+        private void UniHistoryPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

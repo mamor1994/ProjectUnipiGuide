@@ -131,6 +131,7 @@
             this.Name = "BusinessAdministrationPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BusinessAdministrationPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BusinessAdministrationPage_FormClosing);
             this.Load += new System.EventHandler(this.BusinessAdministrationPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

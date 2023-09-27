@@ -72,5 +72,10 @@ namespace ProjectUnipiGuide
         {
             System.Diagnostics.Process.Start("https://www.google.gr/maps?q=Πανεπιστήμιο+Πειραιώς");
         }
+
+        private void LocationPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

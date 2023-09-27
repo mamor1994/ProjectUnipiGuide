@@ -123,5 +123,10 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
         }
+
+        private void LoginPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
