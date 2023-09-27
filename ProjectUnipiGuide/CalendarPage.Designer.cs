@@ -226,7 +226,6 @@ namespace ProjectUnipiGuide
             this.Name = "CalendarPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CalendarPage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CalendarPage_FormClosing);
             this.Load += new System.EventHandler(this.CalendarPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

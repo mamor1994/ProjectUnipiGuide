@@ -59,10 +59,5 @@ namespace ProjectUnipiGuide
             EndPage form = new EndPage();
             form.Show();
         }
-
-        private void ByeByePage_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }

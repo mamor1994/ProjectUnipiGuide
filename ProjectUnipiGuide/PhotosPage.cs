@@ -82,11 +82,5 @@ namespace ProjectUnipiGuide
                 form.btnCalendar.Visible = true;
             }
         }
-
-        private void PhotosPage_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            timer1.Dispose();
-            Application.Exit();
-        }
     }
 }

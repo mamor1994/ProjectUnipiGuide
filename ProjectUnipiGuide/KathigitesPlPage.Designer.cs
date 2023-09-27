@@ -250,7 +250,6 @@ namespace ProjectUnipiGuide
             this.Name = "KathigitesPlPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KathigitesPage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.KathigitesPlPage_FormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

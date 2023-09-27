@@ -125,7 +125,6 @@
             this.Name = "GenInfoPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GenInfoPage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GenInfoPage_FormClosing);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);

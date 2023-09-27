@@ -115,7 +115,6 @@ namespace ProjectUnipiGuide
             this.Name = "ByeByePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ByeByePage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ByeByePage_FormClosing);
             this.Load += new System.EventHandler(this.ByeByePage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

@@ -44,11 +44,5 @@ namespace ProjectUnipiGuide
             EntrancePage form = new EntrancePage();
             form.Show();
         }
-
-        private void HelloPage_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            timer1.Dispose();
-            Application.Exit();
-        }
     }
 }
