@@ -141,7 +141,6 @@
             this.Name = "InternationalStudiesPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InternationalStudiesPage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.InternationalStudiesPage_FormClosing);
             this.Load += new System.EventHandler(this.InternationalStudiesPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

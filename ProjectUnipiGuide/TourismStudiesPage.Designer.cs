@@ -119,7 +119,6 @@
             this.Name = "TourismStudiesPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TourismStudiesPage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TourismStudiesPage_FormClosing);
             this.Load += new System.EventHandler(this.TourismStudiesPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

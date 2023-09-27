@@ -117,7 +117,6 @@
             this.Name = "IndustrialManagementPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IndustrialManagementPage";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.IndustrialManagementPage_FormClosing);
             this.Load += new System.EventHandler(this.IndustrialManagementPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

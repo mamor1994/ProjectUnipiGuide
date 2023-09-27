@@ -50,10 +50,5 @@ namespace ProjectUnipiGuide
         {
             ((TextBox)sender).Parent.Focus();
         }
-
-        private void MaritimePage_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
     }
 }
