@@ -13,15 +13,15 @@ namespace ProjectUnipiGuide
 
         private readonly List<string> imagePaths = new List<string>
         {
-            Path.Combine(Directory.GetCurrentDirectory(), @"images\image1.jfif"), 
-            Path.Combine(Directory.GetCurrentDirectory(), @"images\image2.jfif"),
-            Path.Combine(Directory.GetCurrentDirectory(), @"images\image3.jfif"),
-            Path.Combine(Directory.GetCurrentDirectory(), @"images\image4.jfif"),
-            Path.Combine(Directory.GetCurrentDirectory(), @"images\image5.jfif"),
-            Path.Combine(Directory.GetCurrentDirectory(), @"images\image6.jfif"),
-            Path.Combine(Directory.GetCurrentDirectory(), @"images\image7.jfif"),
-            Path.Combine(Directory.GetCurrentDirectory(), @"images\image8.jfif"),
-            Path.Combine(Directory.GetCurrentDirectory(), @"images\image9.jfif")
+            @"../../../images/image1.jfif", 
+            @"../../../images/image2.jfif",
+            @"../../../images/image3.jfif",
+            @"../../../images/image4.jfif",
+            @"../../../images/image5.jfif",
+            @"../../../images/image6.jfif",
+            @"../../../images/image7.jfif",
+            @"../../../images/image8.jfif",
+            @"../../../images/image9.jfif"
         };
         
         public PhotosPage()
