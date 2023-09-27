@@ -473,6 +473,7 @@
             this.Name = "ServicesPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ServicesPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ServicesPage_FormClosing);
             this.Load += new System.EventHandler(this.ServicesPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

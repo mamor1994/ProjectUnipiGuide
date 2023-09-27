@@ -80,5 +80,10 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
         }
+
+        private void PlOverviewPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

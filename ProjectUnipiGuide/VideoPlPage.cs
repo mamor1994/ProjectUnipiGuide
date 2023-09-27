@@ -54,7 +54,7 @@ namespace ProjectUnipiGuide
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            axWindowsMediaPlayer1?.Dispose();
+            axWindowsMediaPlayer1.Dispose();
             Application.Exit();
         }
 

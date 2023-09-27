@@ -146,6 +146,7 @@
             this.Name = "MaritimePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MaritimePage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MaritimePage_FormClosing);
             this.Load += new System.EventHandler(this.MaritimePage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

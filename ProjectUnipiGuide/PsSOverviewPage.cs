@@ -79,5 +79,10 @@ namespace ProjectUnipiGuide
             form.Show();           
             this.Close();
         }
+
+        private void PsSOverviewPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

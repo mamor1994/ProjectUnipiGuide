@@ -129,6 +129,7 @@
             this.Name = "EndPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EndPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EndPage_FormClosing);
             this.Load += new System.EventHandler(this.EndPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

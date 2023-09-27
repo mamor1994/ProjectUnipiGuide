@@ -210,6 +210,7 @@
             this.Name = "UserReviewPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserReviewPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UserReviewPage_FormClosing);
             this.Load += new System.EventHandler(this.UserReviewPage_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

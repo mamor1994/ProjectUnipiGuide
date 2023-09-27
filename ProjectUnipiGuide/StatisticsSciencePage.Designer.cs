@@ -121,6 +121,7 @@
             this.Name = "StatisticsSciencePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StatisticsSciencePage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.StatisticsSciencePage_FormClosing);
             this.Load += new System.EventHandler(this.StatisticsSciencePage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

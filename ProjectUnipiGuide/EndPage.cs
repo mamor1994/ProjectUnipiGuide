@@ -33,6 +33,8 @@ namespace ProjectUnipiGuide
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            timer1.Stop();
+            synthesizer.Dispose();
             Application.Exit();
         }
 
@@ -41,6 +43,8 @@ namespace ProjectUnipiGuide
             MainPage form = new MainPage();
             form.Show();
             this.Hide();
+            timer1.Stop();
+            synthesizer.Dispose();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,6 +63,11 @@ namespace ProjectUnipiGuide
         {
             timer1.Stop();
             synthesizer.Dispose();
+            Application.Exit();
+        }
+
+        private void EndPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
             Application.Exit();
         }
     }

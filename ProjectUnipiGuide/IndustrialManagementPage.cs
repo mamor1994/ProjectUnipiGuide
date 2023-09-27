@@ -45,5 +45,10 @@ namespace ProjectUnipiGuide
 
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void IndustrialManagementPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
