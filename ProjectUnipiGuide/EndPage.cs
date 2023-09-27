@@ -20,6 +20,7 @@ namespace ProjectUnipiGuide
         {
             InitializeComponent();
             synthesizer = new SpeechSynthesizer();
+            
             timer1.Interval = 5000;
             timer1.Start();
         }
@@ -57,6 +58,7 @@ namespace ProjectUnipiGuide
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Stop();
+            synthesizer.Dispose();
             Application.Exit();
         }
     }

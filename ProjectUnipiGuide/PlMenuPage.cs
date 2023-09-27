@@ -63,5 +63,10 @@ namespace ProjectUnipiGuide
             form.Show();
             this.Hide();
         }
+
+        private void PlMenuPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
