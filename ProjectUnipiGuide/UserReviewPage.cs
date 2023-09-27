@@ -106,11 +106,17 @@ namespace ProjectUnipiGuide.DAL
 
         private void goBackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UserState.IsGuest = true;
             MainPage form = new MainPage();
-            form.btnCalendar.Visible = false;
             form.Show();
             this.Hide();
+            if (UserState.IsGuest == true)
+            {
+                form.btnCalendar.Visible = false;
+            }
+            else
+            {
+                form.btnCalendar.Visible = true;
+            }
         }
     }
 }
