@@ -105,6 +105,11 @@
     <Compile Include="JsonHelpers\AppSettingsHelper.cs" />
     <Compile Include="Models\ApplicationSettings.cs" />
     <Compile Include="Models\Connectionstrings.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="UserState.cs" />
     <Compile Include="DAL\Connection.cs" />
     <Compile Include="DAL\ClassDAL.cs" />
@@ -400,14 +405,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="UserControlBlank.resx">
       <DependentUpon>UserControlBlank.cs</DependentUpon>
     </EmbeddedResource>
@@ -548,6 +548,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\sounds\upliftingsound.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\gif.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
