@@ -12,6 +12,7 @@ namespace ProjectUnipiGuide
 {
     public partial class KathightesSelectOptionPlPage : Form
     {
+        private bool needToExitApp = true;
 
         public KathightesSelectOptionPlPage()
         {
@@ -59,7 +60,16 @@ namespace ProjectUnipiGuide
         {
             PlMenuPage form = new PlMenuPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
+        }
+
+        private void KathightesSelectOptionPlPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

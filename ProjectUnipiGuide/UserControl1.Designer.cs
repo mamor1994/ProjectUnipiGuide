@@ -71,7 +71,7 @@
             this.lbl_title.Font = new System.Drawing.Font("Microsoft Uighur", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_title.Location = new System.Drawing.Point(108, 15);
             this.lbl_title.Name = "lbl_title";
-            this.lbl_title.Size = new System.Drawing.Size(34, 23);
+            this.lbl_title.Size = new System.Drawing.Size(43, 29);
             this.lbl_title.TabIndex = 2;
             this.lbl_title.Text = "Title";
             // 

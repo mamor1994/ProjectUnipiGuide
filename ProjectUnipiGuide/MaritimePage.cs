@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class MaritimePage : Form
     {
+        private bool needToExitApp = true;
+
         public MaritimePage()
         {
             InitializeComponent();
@@ -33,7 +35,8 @@ namespace ProjectUnipiGuide
         {
             Schools schools = new Schools();
             schools.Show();
-            this.Close();
+            needToExitApp = false;
+            Close();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,6 +52,14 @@ namespace ProjectUnipiGuide
         private void textBox1_GotFocus(object sender, EventArgs e)
         {
             ((TextBox)sender).Parent.Focus();
+        }
+
+        private void MaritimePage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

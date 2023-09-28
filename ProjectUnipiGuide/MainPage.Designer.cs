@@ -213,6 +213,7 @@
             this.Name = "MainPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainPage_FormClosing);
             this.Load += new System.EventHandler(this.MainPage_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();

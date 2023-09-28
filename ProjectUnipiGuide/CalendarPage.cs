@@ -15,6 +15,8 @@ namespace ProjectUnipiGuide
     {
         int month, year;
         public static int static_month, static_year;
+        private bool needToExitApp = true;
+
         public CalendarPage()
         {
             InitializeComponent();
@@ -100,12 +102,21 @@ namespace ProjectUnipiGuide
         {
             MainPage form = new MainPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
         }
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void CalendarPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)

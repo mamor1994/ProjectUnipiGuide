@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class ByeByePage : Form
     {
+        private bool needToExitApp = true;
+
         public ByeByePage()
         {
             InitializeComponent();
@@ -34,7 +36,8 @@ namespace ProjectUnipiGuide
         {
             MainPage form = new MainPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
             timer1.Stop();
             if (UserState.IsGuest == true)
             {
@@ -58,6 +61,14 @@ namespace ProjectUnipiGuide
             this.Hide();
             EndPage form = new EndPage();
             form.Show();
+        }
+
+        private void ByeByePage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

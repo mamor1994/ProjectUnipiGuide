@@ -49,7 +49,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1028, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -121,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1028, 607);
             this.Controls.Add(this.Unipi);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
@@ -131,6 +131,7 @@
             this.Name = "BusinessAdministrationPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BusinessAdministrationPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.BusinessAdministrationPage_FormClosing);
             this.Load += new System.EventHandler(this.BusinessAdministrationPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

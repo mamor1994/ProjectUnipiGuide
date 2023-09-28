@@ -13,6 +13,9 @@ namespace ProjectUnipiGuide
 {
     public partial class KathigitesPlPage : Form
     {
+
+        private bool needToExitApp = true;
+
         public KathigitesPlPage()
         {
             InitializeComponent();
@@ -28,7 +31,7 @@ namespace ProjectUnipiGuide
                     {
                         foreach(ListViewItem item in listViewPeople.Items)
                         {
-                            await tw.WriteLineAsync(item.SubItems[0].Text + "\t" + item.SubItems[1].Text);
+                            await tw.WriteLineAsync(item.SubItems[0].Text + "\t" + item.SubItems[1].Text + "\t" + item.SubItems[2].Text + "\t" + item.SubItems[3].Text + "\t" + item.SubItems[4].Text);
                         }
                     MessageBox.Show("Your data has been successfully exported", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
@@ -267,13 +270,22 @@ namespace ProjectUnipiGuide
         {
             KathightesSelectOptionPlPage form = new KathightesSelectOptionPlPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς η οποία δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void KathigitesPlPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

@@ -14,6 +14,8 @@ namespace ProjectUnipiGuide.DAL
 {
     public partial class UserReviewPage : Form
     {
+        private bool needToExitApp = true;
+
         public UserReviewPage()
         {
             InitializeComponent();
@@ -45,6 +47,9 @@ namespace ProjectUnipiGuide.DAL
                             flowLayoutPanel1.Controls.Add(listItems[i]);
 
                             listItems[i].Click += new System.EventHandler(this.UserControl_Click);
+                            Font staticFont = new Font("Arial", 12, FontStyle.Regular);
+                            flowLayoutPanel1.Font = staticFont;
+
                         }
                     }
                 }
@@ -108,7 +113,8 @@ namespace ProjectUnipiGuide.DAL
         {
             MainPage form = new MainPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
             if (UserState.IsGuest == true)
             {
                 form.btnCalendar.Visible = false;
@@ -116,6 +122,14 @@ namespace ProjectUnipiGuide.DAL
             else
             {
                 form.btnCalendar.Visible = true;
+            }
+        }
+
+        private void UserReviewPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
             }
         }
     }

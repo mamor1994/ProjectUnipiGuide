@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class StatisticsSciencePage : Form
     {
+        private bool needToExitApp = true;
+
         public StatisticsSciencePage()
         {
             InitializeComponent();
@@ -33,7 +35,8 @@ namespace ProjectUnipiGuide
         {
             Schools schools = new Schools();
             schools.Show();
-            this.Close();
+            needToExitApp = false;
+            Close();
         }
 
         private void StatisticsSciencePage_Load(object sender, EventArgs e)
@@ -44,6 +47,14 @@ namespace ProjectUnipiGuide
         private void textBox1_GotFocus(object sender, EventArgs e)
         {
             ((TextBox)sender).Parent.Focus();
+        }
+
+        private void StatisticsSciencePage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

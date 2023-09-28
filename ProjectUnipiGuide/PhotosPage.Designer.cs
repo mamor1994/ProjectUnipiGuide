@@ -115,6 +115,7 @@ namespace ProjectUnipiGuide
             this.Name = "PhotosPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PhotosPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PhotosPage_FormClosing);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

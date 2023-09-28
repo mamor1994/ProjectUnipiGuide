@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class PlMenuPage : Form
     {
+        private bool needToExitApp = true;
+
         public PlMenuPage()
         {
             InitializeComponent();
@@ -61,7 +63,16 @@ namespace ProjectUnipiGuide
         {
             Schools form = new Schools();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
+        }
+
+        private void PlMenuPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

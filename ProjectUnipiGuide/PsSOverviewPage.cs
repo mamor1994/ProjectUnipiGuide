@@ -13,6 +13,8 @@ namespace ProjectUnipiGuide
 {
     public partial class PsSOverviewPage : Form
     {
+        private bool needToExitApp = true;
+
         public PsSOverviewPage()
         {
             InitializeComponent();
@@ -77,9 +79,17 @@ namespace ProjectUnipiGuide
         {
             Form form = (Form)this.Tag;
             //Schools form = new Schools();
-            form.Show();           
-            this.Hide();
-            //this.Close();
+            form.Show();
+            needToExitApp = false;
+            Close();
+        }
+
+        private void PsSOverviewPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

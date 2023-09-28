@@ -13,6 +13,8 @@ namespace ProjectUnipiGuide
 {
     public partial class Schools : Form
     {
+        private bool needToExitApp = true;
+
         public Schools()
         {
             InitializeComponent();
@@ -63,7 +65,8 @@ namespace ProjectUnipiGuide
         {
             MainPage form = new MainPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
             if (UserState.IsGuest == true)
             {
                 form.btnCalendar.Visible = false;
@@ -103,7 +106,7 @@ namespace ProjectUnipiGuide
         {
             MaritimePage form = new MaritimePage();
             form.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void MaritimeStudies_Click(object sender, EventArgs e)
@@ -160,60 +163,35 @@ namespace ProjectUnipiGuide
         {
             TourismStudiesPage form = new TourismStudiesPage();
             form.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void IndustrialManagement_CheckedChanged(object sender, EventArgs e)
         {
             IndustrialManagementPage form = new IndustrialManagementPage();
             form.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void Banking_CheckedChanged(object sender, EventArgs e)
         {
             BankingStudiesPage form = new BankingStudiesPage();
             form.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void Statistics_CheckedChanged(object sender, EventArgs e)
         {
             StatisticsSciencePage form = new StatisticsSciencePage();
             form.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void Economics_CheckedChanged(object sender, EventArgs e)
         {
             EconomicsPage form = new EconomicsPage();
             form.Show();
-            this.Close();
-        }
-
-        private void DigitalSystems_CheckedChanged(object sender, EventArgs e)
-        {
-            RadioButton radiobutton = sender as RadioButton;
-            if(radiobutton.Checked == true)
-            {
-
-                PsSOverviewPage form = new PsSOverviewPage();
-                if (form != null)
-                {
-                    if(!DesignMode)
-                    {
-
-
-                    form.Tag = this;
-                    form.Show(this);
-                    //this.Close();
-                    //this.Dispose();
-                    }
-              }
-            }
-        
-        
-        
+            this.Hide();
         }
 
         private void OnActivated(object sender, EventArgs e)
@@ -221,6 +199,34 @@ namespace ProjectUnipiGuide
             this.ComputerScience.Visible = true;
             this.Informatics.Visible = false;
             this.DigitalSystems.Visible = false;
+            this.DigitalSystems.Checked = false;
+        }
+
+        private void Schools_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void DigitalSystems_CheckedChanged_1(object sender, EventArgs e)
+        {
+            RadioButton radiobutton = sender as RadioButton;
+            if (radiobutton.Checked == true)
+            {
+
+                PsSOverviewPage form = new PsSOverviewPage();
+                if (form != null)
+                {
+                    if (!DesignMode)
+                    {
+                        form.Tag = this;
+                        form.Show(this);
+                        this.Hide();
+                    }
+                }
+            }
         }
     }
 }
