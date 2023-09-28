@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class IndustrialManagementPage : Form
     {
+        private bool needToExitApp = true;
+
         public IndustrialManagementPage()
         {
             InitializeComponent();
@@ -26,7 +28,8 @@ namespace ProjectUnipiGuide
         {
             Schools schools = new Schools();
             schools.Show();
-            this.Close();
+            needToExitApp = false;
+            Close();
         }
 
         private void IndustrialManagementPage_Load(object sender, EventArgs e)
@@ -44,6 +47,14 @@ namespace ProjectUnipiGuide
             string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς ο οποίος δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";
 
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void IndustrialManagementPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

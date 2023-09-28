@@ -13,6 +13,8 @@ namespace ProjectUnipiGuide
 {
     public partial class PlOverviewPage : Form
     {
+        private bool needToExitApp = true;
+
 
         private string[] historyTexts = new string[]
         {
@@ -78,7 +80,16 @@ namespace ProjectUnipiGuide
         {
             PlMenuPage form = new PlMenuPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
+        }
+
+        private void PlOverviewPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

@@ -10,6 +10,8 @@ namespace ProjectUnipiGuide
     {
         private const int Delay = 2000; 
         private int currentImageIndex = 0;
+        private bool needToExitApp = true;
+
 
         private readonly List<string> imagePaths = new List<string>
         {
@@ -71,8 +73,9 @@ namespace ProjectUnipiGuide
         {
             MainPage form = new MainPage();
             form.Show();
-            this.Hide();
-            timer1.Start();
+            needToExitApp = false;
+            Close();
+            timer1.Stop();
             if (UserState.IsGuest == true)
             {
                 form.btnCalendar.Visible = false;
@@ -80,6 +83,14 @@ namespace ProjectUnipiGuide
             else
             {
                 form.btnCalendar.Visible = true;
+            }
+        }
+
+        private void PhotosPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
             }
         }
     }

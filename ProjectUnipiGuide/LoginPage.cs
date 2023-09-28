@@ -16,8 +16,11 @@ using System.Windows.Forms;
 
 namespace ProjectUnipiGuide
 {
+
     public partial class LoginPage : Form
     {
+
+        private bool needToExitApp = true;
 
         private readonly string connectionString = AppSettingsHelper.Get().ConnectionStrings.DatabaseConnection;
         SQLiteConnection connection;
@@ -121,7 +124,16 @@ namespace ProjectUnipiGuide
         {
             EntrancePage form = new EntrancePage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
+        }
+
+        private void LoginPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

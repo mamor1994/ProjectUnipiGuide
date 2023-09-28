@@ -15,6 +15,7 @@ namespace ProjectUnipiGuide
     public partial class EndPage : Form
     {
         private SpeechSynthesizer synthesizer;
+        private bool needToExitApp = true;
 
         public EndPage()
         {
@@ -42,8 +43,10 @@ namespace ProjectUnipiGuide
         {
             MainPage form = new MainPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
             timer1.Stop();
+            synthesizer.Dispose();
             if (UserState.IsGuest == true)
             {
                 form.btnCalendar.Visible = false;
@@ -75,7 +78,11 @@ namespace ProjectUnipiGuide
 
         private void EndPage_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            if (needToExitApp)
+            {
+                synthesizer.Dispose();
+                Application.Exit();
+            }
         }
     }
 }

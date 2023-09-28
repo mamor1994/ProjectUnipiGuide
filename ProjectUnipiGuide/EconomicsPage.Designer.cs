@@ -49,7 +49,6 @@
             this.label1.Size = new System.Drawing.Size(253, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Τμήμα Οικονομικής Επιστήμης";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // infotext
             // 
@@ -106,6 +105,7 @@
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(64, 24);
             this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // EconomicsPage
             // 
@@ -121,6 +121,7 @@
             this.Name = "EconomicsPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EconomicsPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EconomicsPage_FormClosing);
             this.Load += new System.EventHandler(this.EconomicsPage_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

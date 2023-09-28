@@ -51,7 +51,7 @@ namespace ProjectUnipiGuide
             this.Episkepths.ForeColor = System.Drawing.Color.White;
             this.Episkepths.Location = new System.Drawing.Point(398, 111);
             this.Episkepths.Name = "Episkepths";
-            this.Episkepths.Size = new System.Drawing.Size(321, 99);
+            this.Episkepths.Size = new System.Drawing.Size(342, 99);
             this.Episkepths.TabIndex = 0;
             this.Episkepths.Text = "ΕΠΙΣΚΕΠΤΗΣ";
             this.Episkepths.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -68,7 +68,7 @@ namespace ProjectUnipiGuide
             this.EggegrammenosXrhsths.ForeColor = System.Drawing.Color.White;
             this.EggegrammenosXrhsths.Location = new System.Drawing.Point(398, 259);
             this.EggegrammenosXrhsths.Name = "EggegrammenosXrhsths";
-            this.EggegrammenosXrhsths.Size = new System.Drawing.Size(321, 99);
+            this.EggegrammenosXrhsths.Size = new System.Drawing.Size(342, 99);
             this.EggegrammenosXrhsths.TabIndex = 0;
             this.EggegrammenosXrhsths.Text = "ΕΓΓΕΓΡΑΜΜΕΝΟΣ ΧΡΗΣΤΗΣ";
             this.EggegrammenosXrhsths.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;

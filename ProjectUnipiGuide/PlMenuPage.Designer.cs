@@ -191,6 +191,7 @@
             this.Name = "PlMenuPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PlMenuPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PlMenuPage_FormClosing);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

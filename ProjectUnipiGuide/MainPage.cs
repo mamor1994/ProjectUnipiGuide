@@ -13,6 +13,8 @@ namespace ProjectUnipiGuide
 {
     public partial class MainPage : Form
     {
+        private bool needToExitApp = true;
+
 
         public MainPage()
         {
@@ -56,7 +58,8 @@ namespace ProjectUnipiGuide
         {
             EntrancePage form = new EntrancePage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -101,6 +104,14 @@ namespace ProjectUnipiGuide
         private void MainPage_Load(object sender, EventArgs e)
         {
             
+        }
+
+        private void MainPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

@@ -123,6 +123,7 @@
             this.Name = "UniHistoryPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UniHistoryPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UniHistoryPage_FormClosing);
             this.Load += new System.EventHandler(this.UniHistoryPage_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();

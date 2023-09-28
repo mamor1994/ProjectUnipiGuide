@@ -115,6 +115,7 @@
             this.Name = "PlOverviewPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PlOverviewPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PlOverviewPage_FormClosing);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);

@@ -14,7 +14,9 @@ namespace ProjectUnipiGuide
 {
     public partial class VideoPlPage : Form
     {
-        private int clickCounter = 0; 
+        private int clickCounter = 0;
+
+        private bool needToExitApp = true;
 
         public VideoPlPage()
         {
@@ -48,8 +50,9 @@ namespace ProjectUnipiGuide
         {
             PlMenuPage form = new PlMenuPage();
             form.Show();
-            this.Hide();
             axWindowsMediaPlayer1.Dispose();
+            needToExitApp = false;
+            Close(); 
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -67,7 +70,10 @@ namespace ProjectUnipiGuide
         private void VideoPlPage_FormClosing(object sender, FormClosingEventArgs e)
         {
             axWindowsMediaPlayer1?.Dispose();
-            Application.Exit();
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

@@ -160,6 +160,7 @@
             this.Name = "LocationPage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LocationPage";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.LocationPage_FormClosing);
             this.Load += new System.EventHandler(this.LocationPage_Load);
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();

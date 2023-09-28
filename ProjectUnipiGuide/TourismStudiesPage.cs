@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class TourismStudiesPage : Form
     {
+        private bool needToExitApp = true;
+
         public TourismStudiesPage()
         {
             InitializeComponent();
@@ -21,7 +23,8 @@ namespace ProjectUnipiGuide
         {
             Schools schools = new Schools();
             schools.Show();
-            this.Close();
+            needToExitApp = false;
+            Close();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -46,6 +49,12 @@ namespace ProjectUnipiGuide
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        
+        private void TourismStudiesPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

@@ -36,13 +36,14 @@ namespace ProjectUnipiGuide
             ClassBLL objbll = new ClassBLL();
             if (objbll.SaveItems(pb_image.Image, txt_title.Text, txt_subtitle.Text))
             {
-                MessageBox.Show("Success!");
+                MessageBox.Show("Αποθηκεύτηκε επιτυχώς!");
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Failed!");
+                MessageBox.Show("Η αποθήκευση απέτυχε.");
             }
+           
         }
     }
 }

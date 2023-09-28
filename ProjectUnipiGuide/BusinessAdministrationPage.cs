@@ -1,27 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace ProjectUnipiGuide
 {
     public partial class BusinessAdministrationPage : Form
     {
+        private bool needToExitApp = true;
+
         public BusinessAdministrationPage()
         {
             InitializeComponent();
-
         }
         private void SetMarginsForLines(int startLine, int endLine, int rightMargin)
         {
             int start = richTextBox1.GetFirstCharIndexFromLine(startLine);
-            int end = richTextBox1.GetFirstCharIndexFromLine(endLine + 1); // +1 γιατί θέλουμε το τέλος της τελευταίας γραμμής
+            int end = richTextBox1.GetFirstCharIndexFromLine(endLine + 1);
 
             richTextBox1.Select(start, end - start);
             richTextBox1.SelectionRightIndent = rightMargin;
@@ -40,6 +33,10 @@ namespace ProjectUnipiGuide
 
         private void BusinessAdministrationPage_Load(object sender, EventArgs e)
         {
+            //var item = new ListViewItem();
+            //item.Text = "tetstsstt";
+            //listView1.Items.Add(item);
+            //listView1.Enabled = false;
             richTextBox1.GotFocus += richTextBox1_GotFocus;
             SetMarginsForLines(1, 6, 200); 
         }
@@ -52,7 +49,8 @@ namespace ProjectUnipiGuide
         {
             Schools schools = new Schools();
             schools.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -65,6 +63,14 @@ namespace ProjectUnipiGuide
             string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς ο οποίος δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";
 
             MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void BusinessAdministrationPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }   
         }
     }   
 }

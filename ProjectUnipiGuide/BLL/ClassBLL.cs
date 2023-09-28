@@ -22,7 +22,7 @@ namespace ProjectUnipiGuide.BLL
             }
             catch(Exception e)
             {
-                DialogResult result = MessageBox.Show(e.Message, ToString());
+                //DialogResult result = MessageBox.Show(e.Message, ToString());
                 return false;
             }
         }

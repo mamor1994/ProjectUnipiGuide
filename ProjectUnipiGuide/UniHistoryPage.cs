@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class UniHistoryPage : Form
     {
+        private bool needToExitApp = true;
+
         public UniHistoryPage()
         {
             InitializeComponent();
@@ -38,7 +40,8 @@ namespace ProjectUnipiGuide
         {
             GenInfoPage form = new GenInfoPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
         }
 
         private void UniHistoryPage_Load(object sender, EventArgs e)
@@ -54,6 +57,14 @@ namespace ProjectUnipiGuide
         private void textBox1_MouseDown(object sender, MouseEventArgs e)
         {
             
+        }
+
+        private void UniHistoryPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

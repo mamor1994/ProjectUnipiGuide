@@ -58,9 +58,9 @@
             this.btn_save.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_save.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_save.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_save.Location = new System.Drawing.Point(376, 443);
+            this.btn_save.Location = new System.Drawing.Point(361, 443);
             this.btn_save.Name = "btn_save";
-            this.btn_save.Size = new System.Drawing.Size(199, 45);
+            this.btn_save.Size = new System.Drawing.Size(214, 45);
             this.btn_save.TabIndex = 2;
             this.btn_save.Text = "Αποθήκευση";
             this.btn_save.UseVisualStyleBackColor = false;
@@ -109,9 +109,11 @@
             // pb_image
             // 
             this.pb_image.BackColor = System.Drawing.SystemColors.Window;
-            this.pb_image.Location = new System.Drawing.Point(16, 22);
+            this.pb_image.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_image.Location = new System.Drawing.Point(12, 22);
             this.pb_image.Name = "pb_image";
             this.pb_image.Size = new System.Drawing.Size(127, 103);
+            this.pb_image.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_image.TabIndex = 0;
             this.pb_image.TabStop = false;
             // 

@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class GenInfoPage : Form
     {
+        private bool needToExitApp = true;
+
         public GenInfoPage()
         {
             InitializeComponent();
@@ -40,7 +42,8 @@ namespace ProjectUnipiGuide
         {
             MainPage form = new MainPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
             if (UserState.IsGuest == true)
             {
                 form.btnCalendar.Visible = false;
@@ -56,6 +59,14 @@ namespace ProjectUnipiGuide
             LocationPage form = new LocationPage();
             form.Show();
             this.Hide();
+        }
+
+        private void GenInfoPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

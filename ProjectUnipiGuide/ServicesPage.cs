@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class ServicesPage : Form
     {
+        private bool needToExitApp = true;
+
         public ServicesPage()
         {
             InitializeComponent();
@@ -33,7 +35,8 @@ namespace ProjectUnipiGuide
         {
             MainPage form = new MainPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
             if (UserState.IsGuest == true)
             {
                 form.btnCalendar.Visible = false;
@@ -244,6 +247,12 @@ namespace ProjectUnipiGuide
                             "στην αναβάθμιση του πανεπιστημίου μας και στη δημιουργία ενός ευνοϊκότερου και καλύτερου κοινωνικοοικονομικού περιβάλλοντος για εμάς και την κοινωνία μας γενικότερα. Σας καλούμε όλους τους αποφοίτους ανεξαιρέτως να συμμετέχετε στην Επιστημονική μας Ένωση. Μπορείτε να επικοινωνείτε μαζί μας στο alumni@unipi.gr.\r\n\r\nΜε εκτίμηση,\r\nΔιοικητικό Συμβούλιο Επιστημονικής Ένωσης\r\nΑποφοίτων Πανεπιστημίου Πειραιώς";
         }
 
-       
+        private void ServicesPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

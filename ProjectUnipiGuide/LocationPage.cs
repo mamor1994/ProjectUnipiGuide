@@ -12,6 +12,9 @@ namespace ProjectUnipiGuide
 {
     public partial class LocationPage : Form
     {
+
+        private bool needToExitApp = true;
+
         public LocationPage()
         {
             InitializeComponent();
@@ -65,12 +68,21 @@ namespace ProjectUnipiGuide
         {
             GenInfoPage form = new GenInfoPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://www.google.gr/maps?q=Πανεπιστήμιο+Πειραιώς");
+        }
+
+        private void LocationPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

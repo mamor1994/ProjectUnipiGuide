@@ -12,6 +12,8 @@ namespace ProjectUnipiGuide
 {
     public partial class WebPlPage : Form
     {
+        private bool needToExitApp = true;
+
         public WebPlPage()
         {
             InitializeComponent();
@@ -27,7 +29,8 @@ namespace ProjectUnipiGuide
         {
             PlMenuPage form = new PlMenuPage();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -48,7 +51,10 @@ namespace ProjectUnipiGuide
 
         private void WebPlPage_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
         }
     }
 }

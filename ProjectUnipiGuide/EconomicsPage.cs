@@ -13,6 +13,8 @@ namespace ProjectUnipiGuide
 {
     public partial class EconomicsPage : Form
     {
+        private bool needToExitApp = true;
+
         public EconomicsPage()
         {
             InitializeComponent();
@@ -28,16 +30,6 @@ namespace ProjectUnipiGuide
             ((System.Windows.Forms.TextBox)sender).Parent.Focus();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -47,7 +39,23 @@ namespace ProjectUnipiGuide
         {
             Schools form = new Schools();
             form.Show();
-            this.Hide();
+            needToExitApp = false;
+            Close();
         }
-    }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string message = "Εδώ θα βρείτε έναν οδηγό για το Πανεπιστήμιο Πειραιώς ο οποίος δημιουργήθηκε από τον Αντώνη Τζιβάκη και την Μαρία Αμοργιανού.";
+
+            MessageBox.Show(message, "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void EconomicsPage_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (needToExitApp)
+            {
+                Application.Exit();
+            }
+        }
+    }    
 }
